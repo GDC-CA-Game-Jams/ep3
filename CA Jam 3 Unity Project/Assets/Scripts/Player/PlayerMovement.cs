@@ -56,6 +56,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody>();
+        MoveForceMod = 10;
     }
 
     /// <summary>
@@ -67,6 +68,8 @@ public class PlayerMovement : MonoBehaviour
         // Get the W/S and A/D axis
         float inlineMove = Input.GetAxisRaw("Vertical");
         float strafeMove = Input.GetAxisRaw("Horizontal");
+        //Debug.Log("Vert: " + inlineMove + "\nStrafe: " + strafeMove + "\nmoveForce: " + moveForce+ "\nmoveForceMod: " + moveForceMod);
+
         bool jump = Input.GetButton("Jump");
         Vector3 moveVec = Vector3.zero;
 
@@ -76,6 +79,7 @@ public class PlayerMovement : MonoBehaviour
         
         // Show the jump ray in the editor window
         Debug.DrawRay(transform.position, Vector3.down * jumpRayDistance, Color.green, 0.1f);
+
         // Jump if the player hit jump and they are on the ground
         if (jump && Physics.Raycast(transform.position, Vector3.down, jumpRayDistance, ~LayerMask.NameToLayer("Default")))
         {
@@ -93,7 +97,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            rb.velocity = new Vector3(0, rb.velocity.y, 0);
+            rb.velocity = new Vector3(0, rb.velocity.y, 0); 
         }
     }
 }
