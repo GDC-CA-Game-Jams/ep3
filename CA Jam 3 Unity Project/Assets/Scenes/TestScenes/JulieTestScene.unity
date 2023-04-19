@@ -144,7 +144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1225761225041275136, guid: e1a7841ec50d54915b9d34ebb5c190a3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.19191742
+      value: -10.27
       objectReference: {fileID: 0}
     - target: {fileID: 1225761225041275136, guid: e1a7841ec50d54915b9d34ebb5c190a3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -465,6 +465,10 @@ PrefabInstance:
     - target: {fileID: 5076123350103115168, guid: dd3d9e8a7130483499e862ecb295c1f6, type: 3}
       propertyPath: m_Name
       value: NPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076123350103115169, guid: dd3d9e8a7130483499e862ecb295c1f6, type: 3}
+      propertyPath: m_Radius
+      value: 2.48
       objectReference: {fileID: 0}
     - target: {fileID: 5076123350103115178, guid: dd3d9e8a7130483499e862ecb295c1f6, type: 3}
       propertyPath: m_RootOrder

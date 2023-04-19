@@ -21,6 +21,9 @@ public class NPC : MonoBehaviour
         if(other.gameObject.tag == "Player")
         {
             Debug.Log("player entered colision zone");
+            PlayerMovement player = (PlayerMovement)other.gameObject.GetComponent("PlayerMovement");
+            player.MaxSpeedMod = -80;
+            player.MoveForceMod = -600;
         }
     }
 
@@ -29,6 +32,9 @@ public class NPC : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             Debug.Log("player exited colision zone");
+            PlayerMovement player = (PlayerMovement)other.gameObject.GetComponent("PlayerMovement");
+            player.MaxSpeedMod = 0;
+            player.MoveForceMod = 0;
         }
     }
 }
