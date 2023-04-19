@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 592419801}
   - component: {fileID: 592419800}
   - component: {fileID: 592419799}
+  - component: {fileID: 592419805}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -244,13 +245,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 592419798}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.8621469, y: 1.28, z: 6.43}
+  m_LocalPosition: {x: 1.8621469, y: 1.81, z: 6.43}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &592419805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592419798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2902c6d0487a2049b0c450c121f92dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &870865030
 PrefabInstance:
   m_ObjectHideFlags: 0
