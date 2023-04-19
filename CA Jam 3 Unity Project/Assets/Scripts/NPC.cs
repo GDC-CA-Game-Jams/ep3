@@ -18,11 +18,17 @@ public class NPC : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("entered colision zone");
+        if(other.gameObject.tag == "Player")
+        {
+            Debug.Log("player entered colision zone");
+        }
     }
 
     void OnTriggerExit(Collider other)
     {
-        Debug.Log("exited colision zone");
+        if (other.gameObject.tag == "Player")
+        {
+            Debug.Log("player exited colision zone");
+        }
     }
 }
