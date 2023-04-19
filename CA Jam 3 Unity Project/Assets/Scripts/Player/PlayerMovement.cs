@@ -14,8 +14,13 @@ public class PlayerMovement : MonoBehaviour
     [Tooltip("How much force will be applied to the player when they jump")]
     [SerializeField] private float jumpForce = 10;
 
-    [Tooltip("How long the jump ray is. When this hits the ground the player will be able to jump again")]
+    [Tooltip("How much beyond the player the jump ray extends")]
     [SerializeField] private float jumpRayDistance = 1;
+    
+    /// <summary>
+    /// The attached Animator. Used for the stretch and squish walking animation
+    /// </summary>
+    private Animator anim;
     
     /// <summary>
     /// Modification applied to the move force
@@ -32,6 +37,11 @@ public class PlayerMovement : MonoBehaviour
     /// </summary>
     private Rigidbody rb;
 
+    /// <summary>
+    /// The combined distance of the player's Y scale and the extension beyond that
+    /// </summary>
+    private float combinedRayLength;
+    
     /// <summary>
     /// Modification applied additivly to the move force
     /// </summary>
@@ -56,12 +66,12 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody>();
+        anim = gameObject.GetComponentInChildren<Animator>();
         MoveForceMod = 10;
     }
 
     /// <summary>
     /// Move the player laterally
-    /// TODO: Add a jump
     /// </summary>
     void Update()
     {
@@ -76,14 +86,15 @@ public class PlayerMovement : MonoBehaviour
         // Set the Z and X to the correct values based on the buttons pressed
         moveVec.z = inlineMove * (moveForce + moveForceMod) * Time.deltaTime;
         moveVec.x = strafeMove * (moveForce + moveForceMod) * Time.deltaTime;
+
+        combinedRayLength = jumpRayDistance + transform.localScale.y;
         
         // Show the jump ray in the editor window
-        Debug.DrawRay(transform.position, Vector3.down * jumpRayDistance, Color.green, 0.1f);
+        Debug.DrawRay(transform.position, Vector3.down * combinedRayLength, Color.green, 0.1f);
 
         // Jump if the player hit jump and they are on the ground
-        if (jump && Physics.Raycast(transform.position, Vector3.down, jumpRayDistance, ~LayerMask.NameToLayer("Default")))
+        if (jump && Physics.Raycast(transform.position, Vector3.down, combinedRayLength, ~LayerMask.NameToLayer("Default")))
         {
-            Debug.Log("Jumping!");
             moveVec.y = jumpForce;
         }
         
@@ -99,5 +110,7 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = new Vector3(0, rb.velocity.y, 0); 
         }
+        
+        anim.SetBool("Move", (rb.velocity.x != 0 || rb.velocity.z != 0));
     }
 }
