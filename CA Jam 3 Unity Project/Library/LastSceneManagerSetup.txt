@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/OfficeLayout_Ian.unity
+- path: Assets/Scenes/TestScenes/AesonTest.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
