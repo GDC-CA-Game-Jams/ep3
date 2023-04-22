@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class TaskEntry : MonoBehaviour
+public class ClipboardTask : MonoBehaviour
 {
     #region Refs
         private TextMeshProUGUI taskText;
@@ -22,7 +22,7 @@ public class TaskEntry : MonoBehaviour
     #endregion
 
     #region Custom Methods
-        public void DestroyFeedback()
+        public void DestroyTask()
         {
             taskUI.RemoveTask(this.gameObject);
         }
