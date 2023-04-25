@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Task", menuName = "Create Task", order = 2)]
+[CreateAssetMenu(fileName = "Task", menuName = "Tasks/Create Task", order = 1)]
 public class TaskSO : ScriptableObject
 {
     public TaskType taskId;
@@ -16,4 +16,15 @@ public class TaskSO : ScriptableObject
     public int numCompleted;
 
     public ItemData taskItem;
+
+    public string GenerateUIText()
+    {
+        string result = taskName;
+        if (numRequired > 0)
+        {
+            result += "(" + numCompleted + "/" + numRequired + ")";
+        }
+
+        return result;
+    }
 }

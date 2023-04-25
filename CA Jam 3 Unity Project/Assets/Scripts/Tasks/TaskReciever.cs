@@ -1,23 +1,18 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Services;
 using UnityEngine;
 
 public class TaskReciever : MonoBehaviour
 {
-    [SerializeField] private ItemData requiredObject;
-
-    [SerializeField] private TaskType task;
+    [SerializeField] private TaskSO task;
     
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            Inventory inv = other.GetComponent<Inventory>();
-            if (inv.Items.ContainsKey(requiredObject))
-            {
-                inv.RemoveItem(requiredObject);
-            }
+            ServiceLocator.Instance.Get<TaskManager>().UpdateTask(task);
         }
     }
 }

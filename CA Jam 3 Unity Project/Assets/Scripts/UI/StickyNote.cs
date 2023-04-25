@@ -23,9 +23,9 @@ public class StickyNote : MonoBehaviour
     #endregion
 
     #region Custom Methods
-        public void DestroySticky()
+        public void DestroySticky(TaskSO task)
         {
-            taskUI.RemoveSticky();
+            taskUI.RemoveSticky(task);
         }
     #endregion
 }

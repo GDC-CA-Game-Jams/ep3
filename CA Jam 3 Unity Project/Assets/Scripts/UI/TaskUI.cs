@@ -25,10 +25,10 @@ public class TaskUI : MonoBehaviour
         private GameObject StickyNotePrefab;
 
         [SerializeField]
-        public List<GameObject> entries = new();
+        public Dictionary<TaskSO, GameObject> entries = new();
 
         [SerializeField]
-        public List<GameObject> stickies = new();
+        public Dictionary<TaskSO, GameObject> stickies = new();
 
         [SerializeField]
         private List<TMP_FontAsset> fonts = new();
@@ -49,8 +49,8 @@ public class TaskUI : MonoBehaviour
 
         private void Start()
         {
-            WriteTask("This is a task!");
-            StartCoroutine(TestTasks());
+            //WriteTask("This is a task!");
+            //StartCoroutine(TestTasks());
         }
     #endregion
 
@@ -59,67 +59,66 @@ public class TaskUI : MonoBehaviour
         {
             yield return new WaitForSeconds(1);
 
-            WriteTask("This is a new task!");
+            //WriteTask("This is a new task!");
 
             yield return new WaitForSeconds(1);
 
-            WriteTask("This is what happens when you write a long task!");
+            //WriteTask("This is what happens when you write a long task!");
 
             yield return new WaitForSeconds(1);
 
-            WriteTask("This is another new task!");
+            //WriteTask("This is another new task!");
 
             yield return new WaitForSeconds(1);
 
-            RemoveTask(entries[2]);
+            //RemoveTask(entries[2]);
 
             yield return new WaitForSeconds(1);
 
-            AddSticky("A wild sticky has appeared!");
+            //AddSticky("A wild sticky has appeared!");
 
             yield return new WaitForSeconds(1);
 
-            AddSticky("Another wild sticky has appeared!");
+            //AddSticky("Another wild sticky has appeared!");
 
             yield return new WaitForSeconds(1);
 
-            RemoveSticky();
+            //RemoveSticky();
 
             yield return new WaitForSeconds(1);
 
-            RemoveSticky();
+            //RemoveSticky();
         }
 
-        public void RemoveTask(GameObject task)
+        public void RemoveTask(TaskSO task)
         {
-            Destroy(task);
+            Destroy(entries[task]);
             entries.Remove(task);
         }
 
-        public void RemoveSticky()
+        public void RemoveSticky(TaskSO task)
         {
             if(stickies.Any())
             {
-                int i = stickies.Count - 1;
-                Destroy(stickies[i]);
-                stickies.RemoveAt(i);
+                Destroy(stickies[task]);
+                stickies.Remove(task);
             }
         }
 
-        public void WriteTask(string text)
+        public void WriteTask(TaskSO task)
         {
             var entryObj = Instantiate(ClipboardTaskPrefab);
             var entryText = entryObj.GetComponentInChildren<TextMeshProUGUI>();
 
             entryObj.transform.SetParent(TaskEntryContainer, false);
-            entryText.text = text;
+            entryText.text = task.GenerateUIText();
             entryText.color = Color.black;
             entryObj.GetComponent<ClipboardTask>().TaskUI = this;
 
-            entries.Add(entryObj);
+            entries.Add(task, entryObj);
         }
 
-        public void AddSticky(string text)
+        public void AddSticky(TaskSO task)
         {
             var stickyObj = Instantiate(StickyNotePrefab);
             var stickyText = stickyObj.GetComponentInChildren<TextMeshProUGUI>();
@@ -133,11 +132,31 @@ public class TaskUI : MonoBehaviour
             stickyObj.transform.Rotate(0.0f, 0.0f, randRotation, Space.Self);
             stickyObj.transform.SetParent(StickySpawn, false);
             stickyText.font = fonts[randFont];
-            stickyText.text = text;
+            stickyText.text = task.GenerateUIText();
             stickyText.color = Color.black;
             stickyObj.GetComponent<StickyNote>().TaskUI = this;
 
-            stickies.Add(stickyObj);
+            stickies.Add(task, stickyObj);
+        }
+
+        public void UpdateTask(TaskSO task)
+        {
+            if (!entries.ContainsKey(task))
+            {
+                return;
+            }
+
+            entries[task].GetComponentInChildren<TextMeshProUGUI>().text = task.GenerateUIText();
+        }
+
+        public void UpdateSticky(TaskSO task)
+        {
+            if (!stickies.ContainsKey(task))
+            {
+                return;
+            }
+
+            stickies[task].GetComponentInChildren<TextMeshProUGUI>().text = task.GenerateUIText();
         }
     #endregion
 }
