@@ -7,4 +7,3 @@ public class TaskList : ScriptableObject
 {
       public List<TaskSO> tasks;
 }
-

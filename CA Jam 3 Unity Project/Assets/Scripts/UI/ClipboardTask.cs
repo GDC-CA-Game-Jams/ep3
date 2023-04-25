@@ -22,9 +22,9 @@ public class ClipboardTask : MonoBehaviour
     #endregion
 
     #region Custom Methods
-        public void DestroyTask(TaskSO task)
-        {
-            taskUI.RemoveTask(task);
-        }
+        //public void DestroyTask(TaskSO task)
+        //{
+        //    taskUI.RemoveTask(task);
+        //}
     #endregion
 }

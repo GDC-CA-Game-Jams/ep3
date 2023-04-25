@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using System.Linq;
+using UnityEngine.UI;
 
 public class TaskUI : MonoBehaviour
 {
@@ -25,10 +26,14 @@ public class TaskUI : MonoBehaviour
         private GameObject StickyNotePrefab;
 
         [SerializeField]
-        public Dictionary<TaskSO, GameObject> entries = new();
+        private Sprite CheckBoxEmpty;
 
         [SerializeField]
-        public Dictionary<TaskSO, GameObject> stickies = new();
+        private Sprite CheckBoxTicked;
+
+        public Dictionary<TaskSO, GameObject> entries = new();
+
+        public Stack<(TaskSO, GameObject)> stickies = new();
 
         [SerializeField]
         private List<TMP_FontAsset> fonts = new();
@@ -46,62 +51,28 @@ public class TaskUI : MonoBehaviour
             else
                 Instance = this;
         }
-
-        private void Start()
-        {
-            //WriteTask("This is a task!");
-            //StartCoroutine(TestTasks());
-        }
     #endregion
 
     #region Custom Methods
-        private IEnumerator TestTasks()
-        {
-            yield return new WaitForSeconds(1);
-
-            //WriteTask("This is a new task!");
-
-            yield return new WaitForSeconds(1);
-
-            //WriteTask("This is what happens when you write a long task!");
-
-            yield return new WaitForSeconds(1);
-
-            //WriteTask("This is another new task!");
-
-            yield return new WaitForSeconds(1);
-
-            //RemoveTask(entries[2]);
-
-            yield return new WaitForSeconds(1);
-
-            //AddSticky("A wild sticky has appeared!");
-
-            yield return new WaitForSeconds(1);
-
-            //AddSticky("Another wild sticky has appeared!");
-
-            yield return new WaitForSeconds(1);
-
-            //RemoveSticky();
-
-            yield return new WaitForSeconds(1);
-
-            //RemoveSticky();
-        }
-
         public void RemoveTask(TaskSO task)
         {
             Destroy(entries[task]);
             entries.Remove(task);
         }
 
-        public void RemoveSticky(TaskSO task)
+        public void CompleteTask(TaskSO task)
+        {
+            var img = entries[task].GetComponentInChildren<Image>();
+            img.sprite = CheckBoxTicked;
+            entries.Remove(task);
+        }
+
+        public void RemoveSticky()
         {
             if(stickies.Any())
             {
-                Destroy(stickies[task]);
-                stickies.Remove(task);
+                Destroy(stickies.Peek().Item2);
+                stickies.Pop();
             }
         }
 
@@ -109,11 +80,15 @@ public class TaskUI : MonoBehaviour
         {
             var entryObj = Instantiate(ClipboardTaskPrefab);
             var entryText = entryObj.GetComponentInChildren<TextMeshProUGUI>();
+            var entryImg = entryObj.GetComponentInChildren<Image>();
 
             entryObj.transform.SetParent(TaskEntryContainer, false);
+            entryObj.GetComponent<ClipboardTask>().TaskUI = this;
+
             entryText.text = task.GenerateUIText();
             entryText.color = Color.black;
-            entryObj.GetComponent<ClipboardTask>().TaskUI = this;
+
+            entryImg.sprite = CheckBoxEmpty;
 
             entries.Add(task, entryObj);
         }
@@ -131,12 +106,13 @@ public class TaskUI : MonoBehaviour
             stickyObj.transform.localPosition = new Vector3(randX, randY, 0.0f);
             stickyObj.transform.Rotate(0.0f, 0.0f, randRotation, Space.Self);
             stickyObj.transform.SetParent(StickySpawn, false);
+            stickyObj.GetComponent<StickyNote>().TaskUI = this;
+
             stickyText.font = fonts[randFont];
             stickyText.text = task.GenerateUIText();
             stickyText.color = Color.black;
-            stickyObj.GetComponent<StickyNote>().TaskUI = this;
 
-            stickies.Add(task, stickyObj);
+            stickies.Push((task, stickyObj));
         }
 
         public void UpdateTask(TaskSO task)
@@ -151,12 +127,25 @@ public class TaskUI : MonoBehaviour
 
         public void UpdateSticky(TaskSO task)
         {
-            if (!stickies.ContainsKey(task))
+            if (!stickies.Any())
             {
                 return;
             }
 
-            stickies[task].GetComponentInChildren<TextMeshProUGUI>().text = task.GenerateUIText();
+            stickies.Peek().Item2.GetComponentInChildren<TextMeshProUGUI>().text = task.GenerateUIText();
+        }
+
+        internal void ClearAll()
+        {
+            for(int i = 0; i < stickies.Count(); i++)
+            {
+                RemoveSticky();
+            }
+
+            foreach(var task in entries)
+            {
+                RemoveTask(task.Key);
+            }
         }
     #endregion
 }

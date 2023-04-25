@@ -1,5 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+
 using Services;
 using UnityEngine;
 
@@ -65,7 +68,7 @@ public class TaskManager : IService
         Inventory inv = player.GetComponent<Inventory>();
         if (inv.Items.ContainsKey(task.taskItem))
         {
-            if (priorityTasks.Count > 0)
+            if (priorityTasks.Any())
             {
                 if (priorityTasks.Peek().Equals(task))
                 {
@@ -83,6 +86,7 @@ public class TaskManager : IService
                     inv.RemoveItem(task.taskItem);
                 }
             }
+
             if (task.numCompleted >= task.numRequired)
             {
                 CompleteTask(task);
@@ -92,17 +96,29 @@ public class TaskManager : IService
 
     private void OnTaskComplete(TaskSO task)
     {
+        if (priorityTasks.Any() && priorityTasks.Peek() == task)
+        {
+            TaskUI.Instance.RemoveSticky();
+            priorityTasks.Pop();
+            return;
+        }
+
         if (baseTasks.Contains(task))
         {
-            TaskUI.Instance.RemoveTask(task);
+            TaskUI.Instance.CompleteTask(task);
             baseTasks.Remove(task);
         }
 
-        if (priorityTasks.Contains(task))
+        if(!baseTasks.Any())
         {
-            TaskUI.Instance.RemoveSticky(task);
-            priorityTasks.Pop();
+            ServiceLocator.Instance.Get<GameManager>().EndDay();
         }
     }
 
+    internal void ClearTasks()
+    {
+        baseTasks.Clear();
+        priorityTasks.Clear();
+        TaskUI.Instance.ClearAll();
+    }
 }

@@ -11,7 +11,7 @@ public class GameManager : IService
 
     public GameManager()
     {
-        Debug.Log("GameManager Initing!");
+        Debug.Log("GameManager Initiating!");
         tasks = Resources.Load<TaskListHolder>("Tasks/Days");
     }
 
@@ -22,6 +22,7 @@ public class GameManager : IService
     
     public void InitDay()
     {
+        ServiceLocator.Instance.Get<TaskManager>().ClearTasks();
         List<TaskSO> temp = tasks.lists[day].tasks;
         for (int i = 0; i < temp.Count; ++i)
         {
@@ -31,6 +32,8 @@ public class GameManager : IService
 
     public void EndDay()
     {
+        ServiceLocator.Instance.Get<TaskManager>().ClearTasks();
+        Debug.Log("End the day!");
         ++day;
         InitDay();
     }
