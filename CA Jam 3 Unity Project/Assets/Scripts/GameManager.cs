@@ -13,6 +13,10 @@ public class GameManager : IService
     {
         Debug.Log("GameManager Initing!");
         tasks = Resources.Load<TaskListHolder>("Tasks/Days");
+    }
+
+    public void Init()
+    {
         InitDay();
     }
     

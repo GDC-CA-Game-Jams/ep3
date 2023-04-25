@@ -66,6 +66,8 @@ public class PlayerMovement : MonoBehaviour
     /// </summary>
     void Start()
     {
+        ServiceLocator.Instance.Get<TaskManager>().Init();
+        ServiceLocator.Instance.Get<GameManager>().Init();
         rb = gameObject.GetComponent<Rigidbody>();
         anim = gameObject.GetComponentInChildren<Animator>();
         MoveForceMod = 10;

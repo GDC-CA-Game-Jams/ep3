@@ -31,7 +31,12 @@ public class TaskManager : IService
     {
         OnTaskComplete(task);
     }
-    
+
+
+    public void Init()
+    {
+        player = GameObject.FindWithTag("Player");
+    }
     
     private void OnNewTaskAssigned(TaskSO task) 
     {
