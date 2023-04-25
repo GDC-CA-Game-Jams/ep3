@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: e2a5a7abec530444eb58d9bbac1c884d
   - enabled: 1
-    path: Assets/Scenes/OfficeLayout_Ian.unity
-    guid: c972fb9392719db4d968cf125916e7d0
+    path: Assets/Scenes/TestScenes/TaskTestScene.unity
+    guid: 03de99476325e114980c407fbcf25404
   - enabled: 1
     path: Assets/Scenes/PauseScene.unity
     guid: d2c5811edd0f2314c8f4bd1ea0e26b4e
