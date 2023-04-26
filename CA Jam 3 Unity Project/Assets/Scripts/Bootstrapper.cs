@@ -12,9 +12,9 @@ public static class Bootstrapper
     public static void Initialize()
     {
         ServiceLocator.Initialize();
-        
+
         //Setup Services
-        //ServiceLocator.Instance.Register(new AudioManager());
+        ServiceLocator.Instance.Register(new AudioManager());
         //ServiceLocator.Instance.Register(new GameManager());
         // Get
         // ServiceLocator.Instance.Get<TaskManager>();
