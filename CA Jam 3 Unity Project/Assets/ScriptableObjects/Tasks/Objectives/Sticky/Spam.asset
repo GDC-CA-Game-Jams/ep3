@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 648a30120fbb71f4ebb41299f32a96f1, type: 3}
+  m_Name: Spam
+  m_EditorClassIdentifier: 
+  taskId: {fileID: 0}
+  isSticky: 1
+  taskName: Remove Spam
+  numRequired: 1
+  numCompleted: 0
+  taskItem: {fileID: 11400000, guid: 581e516cc62904f4a97c7ff27842a878, type: 2}

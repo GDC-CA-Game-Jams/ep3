@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System.Linq;
+using UnityEngine.UI;
 
 public class TaskUI : MonoBehaviour
 {
@@ -15,10 +17,26 @@ public class TaskUI : MonoBehaviour
         private Transform TaskEntryContainer;
 
         [SerializeField]
-        private GameObject TaskEntryPrefab;
+        private Transform StickySpawn;
 
         [SerializeField]
-        private List<GameObject> entries = new();
+        private GameObject ClipboardTaskPrefab;
+
+        [SerializeField]
+        private GameObject StickyNotePrefab;
+
+        [SerializeField]
+        private Sprite CheckBoxEmpty;
+
+        [SerializeField]
+        private Sprite CheckBoxTicked;
+
+        public Dictionary<TaskSO, GameObject> entries = new();
+
+        public Stack<(TaskSO, GameObject)> stickies = new();
+
+        [SerializeField]
+        private List<TMP_FontAsset> fonts = new();
     #endregion
 
     #region Accessors
@@ -33,55 +51,101 @@ public class TaskUI : MonoBehaviour
             else
                 Instance = this;
         }
-
-        private void Start()
-        {
-            WriteTask("This is a task!");
-            StartCoroutine(TestTasks());
-        }
     #endregion
 
     #region Custom Methods
-        private IEnumerator TestTasks()
+        public void RemoveTask(TaskSO task)
         {
-            yield return new WaitForSeconds(1);
-
-            WriteTask("This is a new task!");
-
-            yield return new WaitForSeconds(1);
-
-            WriteTask("This is what happens when you write a long task!");
-
-            yield return new WaitForSeconds(1);
-
-            WriteTask("This is another new task!");
-
-            yield return new WaitForSeconds(1);
-
-            RemoveTask(entries[2]);
-
-            yield return new WaitForSeconds(1);
-
-            WriteTask("This is another new task!");
+            Destroy(entries[task]);
+            entries.Remove(task);
         }
 
-        public void RemoveTask(GameObject entry)
+        public void CompleteTask(TaskSO task)
         {
-            Destroy(entry);
-            entries.Remove(entry);
+            var img = entries[task].GetComponentInChildren<Image>();
+            img.sprite = CheckBoxTicked;
+            entries.Remove(task);
         }
 
-        public void WriteTask(string value)
+        public void RemoveSticky()
         {
-            var entryObj = Instantiate(TaskEntryPrefab);
+            if(stickies.Any())
+            {
+                Destroy(stickies.Peek().Item2);
+                stickies.Pop();
+            }
+        }
+
+        public void WriteTask(TaskSO task)
+        {
+            var entryObj = Instantiate(ClipboardTaskPrefab);
             var entryText = entryObj.GetComponentInChildren<TextMeshProUGUI>();
+            var entryImg = entryObj.GetComponentInChildren<Image>();
 
             entryObj.transform.SetParent(TaskEntryContainer, false);
-            entryText.text = value;
-            entryText.color = Color.black;
-            entryObj.GetComponent<TaskEntry>().TaskUI = this;
+            entryObj.GetComponent<ClipboardTask>().TaskUI = this;
 
-            entries.Add(entryObj);
+            entryText.text = task.GenerateUIText();
+            entryText.color = Color.black;
+
+            entryImg.sprite = CheckBoxEmpty;
+
+            entries.Add(task, entryObj);
+        }
+
+        public void AddSticky(TaskSO task)
+        {
+            var stickyObj = Instantiate(StickyNotePrefab);
+            var stickyText = stickyObj.GetComponentInChildren<TextMeshProUGUI>();
+
+            float randRotation = Random.Range(-30.0f, 30.0f);
+            float randX = Random.Range(-30.0f, 30.0f);
+            float randY = Random.Range(-30.0f, 30.0f);
+            int randFont = Random.Range(0, fonts.Count() - 1);
+            
+            stickyObj.transform.localPosition = new Vector3(randX, randY, 0.0f);
+            stickyObj.transform.Rotate(0.0f, 0.0f, randRotation, Space.Self);
+            stickyObj.transform.SetParent(StickySpawn, false);
+            stickyObj.GetComponent<StickyNote>().TaskUI = this;
+
+            stickyText.font = fonts[randFont];
+            stickyText.text = task.GenerateUIText();
+            stickyText.color = Color.black;
+
+            stickies.Push((task, stickyObj));
+        }
+
+        public void UpdateTask(TaskSO task)
+        {
+            if (!entries.ContainsKey(task))
+            {
+                return;
+            }
+
+            entries[task].GetComponentInChildren<TextMeshProUGUI>().text = task.GenerateUIText();
+        }
+
+        public void UpdateSticky(TaskSO task)
+        {
+            if (!stickies.Any())
+            {
+                return;
+            }
+
+            stickies.Peek().Item2.GetComponentInChildren<TextMeshProUGUI>().text = task.GenerateUIText();
+        }
+
+        internal void ClearAll()
+        {
+            for(int i = 0; i < stickies.Count(); i++)
+            {
+                RemoveSticky();
+            }
+
+            foreach(var task in entries)
+            {
+                RemoveTask(task.Key);
+            }
         }
     #endregion
 }

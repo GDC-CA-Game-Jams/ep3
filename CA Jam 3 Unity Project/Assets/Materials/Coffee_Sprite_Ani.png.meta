@@ -1,0 +1,6735 @@
+fileFormatVersion: 2
+guid: a312d2115e44946d2a4bd55eadff19cf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 4102
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ee89dcfa6034768a375cb6d0c6310d
+      internalID: 1309981376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_1
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 4102
+        width: 160
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6ad41b4cffa4be8a6ea1a9ff6d81a7
+      internalID: 1270299188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_2
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 4102
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750be217a0abd41a98508a3ebef99751
+      internalID: 1682516991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_3
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 4102
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1a63ef4ac8e42cdb6cc7aadc5b9570
+      internalID: 1331541525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_4
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 4102
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45748a301f75541d4b52cd077f403ae4
+      internalID: -1571881418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_5
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 4102
+        width: 156
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7858e0a2d017c44bbafcd3ab7bcd742a
+      internalID: 1706966598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_6
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 4102
+        width: 157
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef12e22b6dbd403b8854155ccc1b57f
+      internalID: -1787445998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_7
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 4102
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ff2c99ed05d4df08d99809abf8fe3c
+      internalID: -1787516282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_8
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 4102
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583ea54383c164188ae7c4f74f18d92c
+      internalID: 947407837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_9
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 4102
+        width: 160
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989f647a2cf26492cab0d05e9b58e476
+      internalID: 742157314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_10
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 4102
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90dd52e97d64413a8caf93accf1561f
+      internalID: 1583367273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_11
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 4102
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f7fcc7f0e6749758554fbbac1a67bb
+      internalID: 1830470447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_12
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 4102
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad28b688566bb45278421453825ba282
+      internalID: -906027596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_13
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 4102
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd00aa6d29fa4d00a654c15e69390ac
+      internalID: -915335815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_14
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 4102
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbb09b9d86a64dd0b55ffaf13e9c55a
+      internalID: 1061708198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_15
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 4102
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9c57ba4924b4b82b5297dd7d1866a9
+      internalID: -273950455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_16
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 4102
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9787e4424f48d4151864685991f5bd3a
+      internalID: -1464934795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_17
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 3861
+        width: 159
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591e2a84d31b444bd836e46a897487d1
+      internalID: 1815193573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_18
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 3861
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bc6645ecd3e4cdeb94704fe1a6541d
+      internalID: -1179973391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_19
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 3861
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984ebb83365e7467f8b9f8f997df4b6a
+      internalID: -1960637020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_20
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 3861
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36176bc6da8924866b11eb01edda0c44
+      internalID: -34242982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_21
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 3861
+        width: 160
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ef9307b6c364ca98364acb74b5a06e
+      internalID: -1260576325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_22
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 3861
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57601a791670541cb92eb9d9852ee1bb
+      internalID: 1204004887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_23
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 3861
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f115d6847ba4f26b065d25445b8ed9
+      internalID: 1273214198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_24
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 3861
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ec45c8530f04838abf1d3eb2389f0e
+      internalID: -480092200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_25
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 3861
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686fc8ba46f88456183261df5674531f
+      internalID: 776951586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_26
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 3861
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b2723429fbd4206affdd41db54874f
+      internalID: -2087078998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_27
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 3861
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4589402df36c485eb19a396b8b1e599
+      internalID: 894724979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_28
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 3861
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705e30b3d0c554d10a1c8a1e2381aad6
+      internalID: -503155116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_29
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 3861
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cb0243fd0be42cd9e4ab5eeed5638e
+      internalID: -502258181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_30
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 3861
+        width: 160
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3800a20c171374ba3abf5b45d453de34
+      internalID: -1486827244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_31
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 3861
+        width: 160
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3af73fb7ee284980bddc165c4c91399
+      internalID: -1583795420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_32
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 3861
+        width: 159
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3a57976643749bcbfed6aa3d65fcbb
+      internalID: -695663273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_33
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 3861
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f7a2529ab5f401d90708274054a626
+      internalID: -732541151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_34
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 3623
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a1d49b6291e47e294c608038365173
+      internalID: 680253244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_35
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 3623
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f2733d53b904f7ebadac1eeba4a6f3
+      internalID: -713663726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_36
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 3623
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9d20c8560df446d95912eef779ee20
+      internalID: -1555563203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_37
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 3623
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf71ca70a6dc4ad0a86231796d0b20e
+      internalID: -1511561494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_38
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 3622
+        width: 156
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269cd8a62384f4a138ff43fb07fd30cf
+      internalID: 1228850527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_39
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 3622
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbdca10de47f442f91e35e107286b8f
+      internalID: -1122921311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_40
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 3622
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6b3fd782e5844c99db94d04e1cc2db
+      internalID: 1491368895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_41
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 3622
+        width: 157
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2627e7316eb5450aa6dbda1475750f6
+      internalID: 2003329155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_42
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 3622
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7cbae79742242308b08581edb40991
+      internalID: -1048427518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_43
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 3622
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7478376800474d2a9937b899074a88b
+      internalID: -523683246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_44
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 3622
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc7ea59de3b449648586f9b18b3d400
+      internalID: 2107510080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_45
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 3623
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33e486cabe664bfa83a33deb279af60
+      internalID: -946196444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_46
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 3623
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73890e57ca8d44fb894e565a7ec13fd4
+      internalID: 1538043680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_47
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 3622
+        width: 157
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22578f04ae00543fab0ba0166fac3c59
+      internalID: -2102830508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_48
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 3622
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48da9ec8fa7049b2b6d6ffb278a2c73
+      internalID: -1361506479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_49
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 3623
+        width: 161
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6a128592ded4d8c9e091d7ceeb3acf
+      internalID: 150040007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_50
+      rect:
+        serializedVersion: 2
+        x: 3884
+        y: 3623
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e3304c8c33641248068073439a257e
+      internalID: 198069026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_51
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 3382
+        width: 161
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ca249b7beef4758a80670f4729bffc
+      internalID: -1940137277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_52
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 3382
+        width: 160
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac115e32b50ff43ebbaf29b84aa2786a
+      internalID: -1169247294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_53
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 3382
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccc1606b24eb4e16a4076c1b4a02822
+      internalID: -331083628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_54
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 3382
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e3810b76dea4fc093430e3b6742058
+      internalID: -761228261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_55
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 3382
+        width: 160
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8829de991c13419dbffa471f4fa640f
+      internalID: -1504815060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_56
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 3382
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67d21697f7f34fe4918561db4870c14
+      internalID: -32065900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_57
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 3382
+        width: 157
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08d7286fac024958b8c0cbffa8eeecd
+      internalID: -791756777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_58
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 3382
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69fe51c6319b4284ad26a7e96b099c7
+      internalID: 1697933127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_59
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 3382
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f458a1f7357464b028a17dfd1cacc957
+      internalID: -770648789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_60
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 3382
+        width: 156
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1c939bd09274e1ebccd399b56800e3
+      internalID: -825928194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_61
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 3382
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c99a781a12b74094a8ff53d8407d417
+      internalID: 1953663262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_62
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 3382
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd856ea592674aefb8dc29eb49698ea
+      internalID: -1049941842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_63
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 3382
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369a7ef01407b450fa82803ee58849b9
+      internalID: 203497203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_64
+      rect:
+        serializedVersion: 2
+        x: 3163
+        y: 3382
+        width: 161
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07cd50d6dcabf406d863f246f17e2e50
+      internalID: -2075062437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_65
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 3382
+        width: 160
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b13f05bc3c0e4a2faa2d875d3b6d0f9
+      internalID: 1418273632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_66
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 3382
+        width: 159
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab608145331d24eb3a2cc25cbf628eeb
+      internalID: -1521459859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_67
+      rect:
+        serializedVersion: 2
+        x: 3883
+        y: 3382
+        width: 160
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ab692929a014c929345206a022e31b
+      internalID: 1214976506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_68
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 3142
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0691333deafca47bb9032b706d61821a
+      internalID: -1576631841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_69
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 3142
+        width: 156
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb730b375656d4311a7ce42f300a3033
+      internalID: 1659470861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_70
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 3142
+        width: 157
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca683aa883094029a8ecd0743977fe1
+      internalID: -491109355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_71
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 3142
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb749a45ca1846bebf87c0ca21a98a9
+      internalID: 79924328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_72
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 3142
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d26d2cc2ba314f97a4710cbe7bc26ff
+      internalID: 653758431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_73
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 3142
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40aa55726679940f987b78ae2cf62c47
+      internalID: -521842171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_74
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 3142
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b2d7721d32240548f5a222199dbc45
+      internalID: -1206650784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_75
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 3142
+        width: 160
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46745b332276046cd99af4eb69936cd3
+      internalID: 831423185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_76
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 3142
+        width: 160
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65580e3cec3a44056a30b4775fce4911
+      internalID: 40126603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_77
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 3142
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422710126efd04525977348da26d39d6
+      internalID: -500624839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_78
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 3142
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a9d8ef107d04169903b116399c2ace
+      internalID: -200643583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_79
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 3142
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ad71dd99a934aea8e5f172f6ab174b
+      internalID: 1176416934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_80
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 3142
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f56c8c6c81746b4b799d4fabc1326a
+      internalID: 814835654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_81
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 3142
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9bffc32061e0470c8c16182f164c80d
+      internalID: 548408785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_82
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 3142
+        width: 156
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3dedae700654da7a54f425825bd354
+      internalID: -1084868779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_83
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 3142
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f14c644875c4c9c8cabbee99bdd06e
+      internalID: 1014403647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_84
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 3142
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40b4e00e8d3944e2b5ba10c6b88a10b
+      internalID: 63507232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_85
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2902
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d4dbe2ae99e41bc9ba026b74bb1bc9
+      internalID: -1684812496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_86
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 2902
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7503720728b54c09ad56ee99a00359f
+      internalID: -1948686294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_87
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 2902
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e769530723fd44db8b159b2505ce5b75
+      internalID: -1296775268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_88
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 2902
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fe50c449b334e25ba88583f26c0236
+      internalID: 1082189218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_89
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 2901
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9559f436630487c89658ca569dfc2e
+      internalID: 1982253651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_90
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 2901
+        width: 159
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e76ab4d1b8140549df2032e4780f6c
+      internalID: 637753253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_91
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 2901
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e4a68a717d54ccabd20aa4fa76b247
+      internalID: -449733680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_92
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 2901
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18826ddb6eb5649cb97e74ac0af7238b
+      internalID: 1741134276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_93
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 2901
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29ef60a62ae64a4cabd06ca6964fb4d
+      internalID: 290299386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_94
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 2902
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b6512df422c4935b7e2fc5cbb703d4
+      internalID: 881796605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_95
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 2902
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b997ae9676d4e498cf3505e7dabc50
+      internalID: 974678913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_96
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 2902
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7467a870c8d814f95b73503302a9616b
+      internalID: -1080373466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_97
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 2902
+        width: 159
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e994349d596b54902b67a93f99c77d8c
+      internalID: -2134627176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_98
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 2902
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b68be41263b40789adeaa735a9ced1
+      internalID: 1971744497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_99
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 2902
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b442398b4044591828c02df8b6d70e
+      internalID: 980061487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_100
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 2902
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227607ad13e9046b5a53f74231cb79d0
+      internalID: -606547407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_101
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 2902
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0e66c5c91ca4b0bb4e9d3f9ec91d15
+      internalID: -167947926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_102
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2662
+        width: 156
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67e52f08ed0e4234aee0cd27ec23412
+      internalID: -1897565369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_103
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 2663
+        width: 156
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d79cf6ff014f48cf882d375638f7184
+      internalID: -854369897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_104
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 2662
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad91e6970935a4302ada4b6bf7d8637b
+      internalID: -1457050713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_105
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 2663
+        width: 160
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201a046af1f644cbaa2bb3d834b7fe76
+      internalID: -1250322772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_106
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 2663
+        width: 160
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56adc6f425dff433bb9501296095e9fe
+      internalID: -1898644358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_107
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 2663
+        width: 160
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666fe4f542ff446339d144b66d22ab8e
+      internalID: 976161675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_108
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 2663
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9786168801d424b049db03cd941bd8ff
+      internalID: 1556177192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_109
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 2661
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edff68d7aa7294fe4baadf8dcd3da914
+      internalID: -2020145804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_110
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 2661
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef802f405c35491db8b1101506e4aea
+      internalID: -1013554808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_111
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 2661
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc78272979c14cd0a6cac1a2be4230f
+      internalID: 1298895954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_112
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 2661
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5178e5d18ac48fd91e8efc05c45a0d
+      internalID: 1887390611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_113
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 2661
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239af27164c21421db4f6330c2a946a9
+      internalID: -608374591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_114
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 2661
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f7112f5ce9c451d9bb11bbbeba3461
+      internalID: -1239113392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_115
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 2661
+        width: 159
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd76a9b0c8c345e08a0c77448c83d42
+      internalID: -119305073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_116
+      rect:
+        serializedVersion: 2
+        x: 3405
+        y: 2661
+        width: 159
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588675016e63c4de58e24c5c7e06ae67
+      internalID: -332218495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_117
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 2661
+        width: 159
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9335be24cea4f23800ead318f69e4d
+      internalID: -1959773745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_118
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 2661
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39dd5bee11542423392f382ea8bb759b
+      internalID: -500333037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_119
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2423
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96db37c37603249aebbebe0d7a55ff60
+      internalID: -234952061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_120
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 2423
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18c08ac64f204a788899f954db89971
+      internalID: 1271309265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_121
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 2423
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6520370ba9d804836a21c0dbcb5fa6ef
+      internalID: 1257405334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_122
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 2423
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc95419e4bcf46a78e87122fccf10b1
+      internalID: -1990173479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_123
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 2423
+        width: 156
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b572510b12f4b0a8089b493afffd66
+      internalID: 865179810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_124
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 2423
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac4b98e710ce40e9b690e84cd2acd93
+      internalID: 2084623431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_125
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 2423
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648e838d1dd7a401da64eafecea0cee5
+      internalID: -268782326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_126
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 2423
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3965b7a8bb7764d81b7503892ff921c4
+      internalID: 527966971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_127
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 2423
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0035546190064411e8f8dea89de0b971
+      internalID: 6145894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_128
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 2422
+        width: 160
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92899555b963e44068f3f8fc56b39b6e
+      internalID: -1511016427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_129
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 2422
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0f84b9c0468474da3f7247a508b4ea
+      internalID: -304051809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_130
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 2422
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c178a788389614c7999d0ab0c277ba62
+      internalID: 1400488670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_131
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 2422
+        width: 159
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8163f1f6b11914b73831bcbdd208e0c3
+      internalID: 1347888857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_132
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 2423
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75462e608aa149dc97774e0ede89076
+      internalID: 1093105748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_133
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 2423
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246ff3e7217c64b63ab6fd97591334ef
+      internalID: -1417217126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_134
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 2423
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20688f2a0eb334afd96a34c7c15c4c79
+      internalID: -1609471233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_135
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 2423
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810e9061e06d5488198aaf10fc6509b4
+      internalID: 1146344492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_136
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2182
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1403fc520871b45c0992cd5e18381099
+      internalID: 10555044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_137
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 2182
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6b21bd663e14f8b89f27ce101e2696
+      internalID: 1562847518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_138
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 2182
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410ea25cdb5ad439cb1629f242d1e5f3
+      internalID: 1564817953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_139
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 2182
+        width: 160
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2ffb35cd3ff4e00a2f14519c9bb018
+      internalID: 1041985852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_140
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 2182
+        width: 160
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bfe6c2d10464563823831fd2572fec
+      internalID: 487479867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_141
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 2182
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963d1c206b0474cc48a9eb634ae712ac
+      internalID: -249952765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_142
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 2182
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e673fcc8e2d0049a19583b259f4ec384
+      internalID: 1341211468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_143
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 2182
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d60b09bea19b437da7b05f47c44fa8e
+      internalID: -1882768133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_144
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 2182
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91b6eb40b3614e3a90580e2a534af6c
+      internalID: -1120291654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_145
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 2182
+        width: 156
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca09bf36e78a419d9d3b2dea0377235
+      internalID: 260929158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_146
+      rect:
+        serializedVersion: 2
+        x: 2446
+        y: 2182
+        width: 156
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43217105b97ae4b8eb5da367f97989be
+      internalID: 1977204918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_147
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 2182
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6fece9e20f24a43908308c8ad3a8ed
+      internalID: 1296654615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_148
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 2182
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3f1cadec2064446b9775e36318acf6
+      internalID: 1261669341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_149
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 2182
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8668f6960b24feb87a282741e2ccf1
+      internalID: -199873131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_150
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 2182
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2522422dd33443fb405eff419fd7e0
+      internalID: 1747333234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_151
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 2182
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2611a83a70a4c5fa44a0f8cad6e899
+      internalID: 1376211919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_152
+      rect:
+        serializedVersion: 2
+        x: 3883
+        y: 2182
+        width: 160
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0b2509b50514884a5ab0c0584c81f0
+      internalID: -170018041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_153
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1942
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9618a586e645a45a89ab35a01b74e021
+      internalID: 1344140810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_154
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1942
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b91b641b62a42c781050ad2f291ec0
+      internalID: -1558815317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_155
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1942
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc75d56ea50b14239bdf84bb89aa5c3f
+      internalID: -1009050162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_156
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1942
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f274ded12642a498a9d7a42787174666
+      internalID: 2025488723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_157
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1942
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc3fce2239cd4af9b4ea90623670986
+      internalID: 605315030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_158
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 1942
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec27a0d668841402f889cd061f9eb896
+      internalID: 770393282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_159
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1942
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087ba77c821814a6fb11efde98b65d07
+      internalID: 331267522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_160
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 1942
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724994c8c372f47b78bb63401afadc6e
+      internalID: -245074867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_161
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 1942
+        width: 156
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2973653c46da1423f808b69ec8fa3959
+      internalID: -1847638295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_162
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 1942
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c598a5af9b542f5919f184246b1a1b
+      internalID: -1813024923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_163
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 1942
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d262dd02180240a88d6964f18ecff5e
+      internalID: -3219756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_164
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 1942
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bdff508cd4b460695472e6801737bc
+      internalID: 368149940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_165
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 1942
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9caa9c8f04b480480721e2c1ca450e
+      internalID: 195756207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_166
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 1942
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01d213c2d09b4d4a8ef836207e4f696
+      internalID: -1946621322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_167
+      rect:
+        serializedVersion: 2
+        x: 3405
+        y: 1942
+        width: 157
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef82f11d5b1a4500b0732fecac46d51
+      internalID: 784026723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_168
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 1942
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0740cbefbe33940b3a6846b87ce7dab3
+      internalID: -393355701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_169
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 1942
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23156187cc7e04a5c87663f6a1c8881d
+      internalID: -1439645440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_170
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1703
+        width: 160
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e538f914aa84c8f911de0a5ae845ee
+      internalID: -1273196676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_171
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1703
+        width: 160
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181ae8a9ca38949dd8e65a60d140eb08
+      internalID: 1749742269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_172
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1703
+        width: 160
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f668e6c77b24af49e27ebbe32c3869
+      internalID: -1834876492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_173
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1703
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a56d8aa5f4c45d0abb20b1b69d0554
+      internalID: 1357375211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_174
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1703
+        width: 160
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c36495f8fe14dfea64ddb46812acca
+      internalID: -1210562529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_175
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 1703
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a16190ac7df488a8643a7b39621d48
+      internalID: 1087880694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_176
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1703
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b4f8290dc7841cead92cd77221266b
+      internalID: -1809915170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_177
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 1701
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd8ce19972f24589b4a9211642da794
+      internalID: -1026576594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_178
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 1701
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b512806875b4854bf8aeb8635bd902
+      internalID: 757392639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_179
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 1701
+        width: 156
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82963e7b9877b4e42aef1fe77f6ddb15
+      internalID: 1785143188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_180
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 1701
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a14ad7c833d04836a5d65c74a203071
+      internalID: 1128232675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_181
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 1701
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3ac39d6a9c34fc4ab94c661467b78c
+      internalID: -2043755202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_182
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 1701
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4541e2628d991423bba01e8935551be1
+      internalID: -116692552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_183
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 1701
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b1ed8fc3fb048d1893309b8a2c0e31
+      internalID: 988336305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_184
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 1701
+        width: 160
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b639472f7af4475abeaf423195c50dc
+      internalID: 398280909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_185
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 1701
+        width: 159
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5494ba9b340ab402489ec2dc761ca87b
+      internalID: -62072287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_186
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 1701
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f946f884f3734ac49dd4f4a94d0c3cb
+      internalID: 1608907134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_187
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1461
+        width: 161
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb324a99a8b0a49409385013f40ef6c6
+      internalID: 853747699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_188
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1463
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a6388582ee94553b7047c29315590c
+      internalID: 1648288814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_189
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1463
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6a82fc644a64fe780bb7ccf70ce1cd
+      internalID: -961606881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_190
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1463
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458b48422d002431e80bcb2b75c7ef21
+      internalID: -1482840441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_191
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1463
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8329a4069ec4e438a94d4c30e9944934
+      internalID: 496860965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_192
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 1461
+        width: 156
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80c748cc72d84fd4b7ce84e73f0f3f2
+      internalID: -1942409040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_193
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1461
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069eb994852f34d61aebd4b6a69c9a26
+      internalID: -2124278449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_194
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 1461
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127725d66775c41658a9204ee33a9f1d
+      internalID: 246261228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_195
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 1463
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc82705482cfd42ebb976c51ff2f14b3
+      internalID: -336220244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_196
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 1463
+        width: 160
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cdfa123163c4ff68d28916b2e14700
+      internalID: -680968481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_197
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 1463
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04dde2a9c938f4554a7ec1eb6100f85f
+      internalID: -1599203842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_198
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 1463
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82494566ad18c44ad95f168a52056e01
+      internalID: 1708755566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_199
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 1463
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca247c2642444b73a859832a44b2e24
+      internalID: 2083603118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_200
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 1463
+        width: 157
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80eaa338b2dcf4e4186a5837ef9fb2e9
+      internalID: 1104241616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_201
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 1463
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19efa357fa30b4c67bb7d90eec2fd2ef
+      internalID: 134115607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_202
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 1463
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22850ecf1128e42198e2d7c94e8a9ebe
+      internalID: -90794358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_203
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 1461
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d1a61bcf5e74655a61165c32e7e645
+      internalID: 1884340905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_204
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1222
+        width: 159
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba7b2a2c16c74e0483ed1e3f87368fb
+      internalID: -822380765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_205
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1222
+        width: 160
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726e1e33c8f264009aed896647737d42
+      internalID: 1613788750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_206
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1222
+        width: 160
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb6af470a56240bbb24c766f3dea70e
+      internalID: 1508154633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_207
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1222
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8da65e0e1e44c96b380251e0d07e70
+      internalID: 614693616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_208
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1222
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b609483f15b54582b543d0f3666340b
+      internalID: -583490186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_209
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 1222
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279d96768ab3c4cb0b9db09c38c5f1b4
+      internalID: -433870271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_210
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1222
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d9f9bcc41bc4dccbcc6b0aa83c175c
+      internalID: 887115098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_211
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 1222
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54e4320fd8f64f549b69b02f1e0bbc7
+      internalID: 578882907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_212
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 1222
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1330e36e09e0b4396abc72b8ac6afa35
+      internalID: -185527383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_213
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 1222
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97676f63a5fe48ffbb4ebe8df3d1302
+      internalID: 1693212330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_214
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 1221
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f47fa641749e4f99b02c268bfd073ac
+      internalID: -440184944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_215
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 1221
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a7478ac58eb44cd933660a8e57dba9
+      internalID: 1065689543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_216
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 1221
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e25e01d4d44467b959dcf0e0537030
+      internalID: 830131644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_217
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 1221
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aebf478a9ee24089b6271da0d2c17b0
+      internalID: 684695572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_218
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 1222
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69749dde877804ee7a83d537fad8e638
+      internalID: -268820390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_219
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 1222
+        width: 159
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2b887107bcf457cb311470e4d5a750
+      internalID: -166054922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_220
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 1222
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17687a9773ae34138925bae23e3e3a5c
+      internalID: -1075473487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_221
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 982
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4691d187b08454787a3aa2086dcf4587
+      internalID: -2101966094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_222
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 982
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e0878a0e4624603af3292ccddb0e00
+      internalID: 352282932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_223
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 982
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b3fbe32952e4583a0d175c10be3c3f
+      internalID: 456305584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_224
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 982
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918192ec73e24494dacc9845f08d6dcc
+      internalID: -1978725068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_225
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 982
+        width: 160
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d072b43339a6e4b5fac0aeddf1846c1e
+      internalID: -880937050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_226
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 982
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572dde7a5c2414ab8b25f47d8e7d6172
+      internalID: -1107256316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_227
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 982
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e6e0f7bb9a442cfab1b17266c8fe03
+      internalID: -716792894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_228
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 982
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554aacc0f17114c6a92a413ef1e1af75
+      internalID: 2141370595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_229
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 982
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78adb2361ab0418d949289255cc4449
+      internalID: -1194108064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_230
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 982
+        width: 157
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fcd859c417444e1adea920629acfd7
+      internalID: 382489823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_231
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 982
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f8e883f062e46f9a416430615dd42e
+      internalID: -524385989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_232
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 982
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7380856e5d34bbdaafbaa92b7ce1cd
+      internalID: 1667921634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_233
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 982
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38dc1e7b8cc7045deafd67f4f36dde32
+      internalID: -1416183018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_234
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 982
+        width: 160
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa9934f72bd3479a8808e558101007d
+      internalID: -2032262560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_235
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 982
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9add577aa2e40d89af6325c9ae3df4
+      internalID: 2062000966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_236
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 982
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55d3b1cb0c684c1dba825db68331da9
+      internalID: 1080940131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_237
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 982
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89af7500aae5a4f17975f8feff8912c9
+      internalID: -1620407770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_238
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 742
+        width: 156
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cdd7900e63c4947822c156ac35cfdd
+      internalID: -1766238315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_239
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 742
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad776903dddb49f68f4875fc889e0d6
+      internalID: 1741909960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_240
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 742
+        width: 157
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1b66ce58f514d00a285416443ebb7b
+      internalID: 589988122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_241
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 742
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66052a04daccc41f1aa1ef2686ec56ca
+      internalID: -1071944538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_242
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 742
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a475b33690a4b7d98850746b47ecfd
+      internalID: -948525579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_243
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 742
+        width: 156
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae3ec7f7853c4a1eb329ee8de003f63
+      internalID: -922707003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_244
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 742
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309ba514f223f4bcdbcec75dd2e644a6
+      internalID: 62296828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_245
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 742
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09a50f6188da4f068f894dea5098e7f
+      internalID: 1228905452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_246
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 742
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eff76527f728443995178e15d12a91a
+      internalID: 629272147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_247
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 742
+        width: 160
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c773a40f03f4df5ba608169e01ce49
+      internalID: -1782124730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_248
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 742
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34a0e49ce7e84af3981386e890416ff
+      internalID: 2009049097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_249
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 742
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f9734a08c884f8e9ec189c6dc122fc
+      internalID: 865615624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_250
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 742
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d37c474db1f460aa6de96d0c6dafe4
+      internalID: 1563387324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_251
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 741
+        width: 159
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef1f41a1f42b43da929c4d20e48f4e9
+      internalID: 1763678068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_252
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 741
+        width: 160
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd088e0b8c1c545b3be878d57e7eb69d
+      internalID: 786844828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_253
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 741
+        width: 159
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b7a07fdcb2141779e30d17bc54433d
+      internalID: -909021204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_254
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 741
+        width: 158
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6deea813c9a50480db470c8f5d6d5af4
+      internalID: 1496356334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_255
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 501
+        width: 159
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04a8ea34a47e4e109812e03a381c403
+      internalID: -980286372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_256
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 501
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59100e8e9342e4b5992f0c2cc0d56948
+      internalID: 1168781777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_257
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 501
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffd3183af639478d8e0d6453428aece
+      internalID: 1041778143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_258
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 501
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08653e576c0c94acb94a82143c5e4df2
+      internalID: 1320194386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_259
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 501
+        width: 159
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f274c3569e8c04516a7a6bcd554dd004
+      internalID: 1230743681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_260
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 501
+        width: 160
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2837bb006fbe44e4c947c50b73716055
+      internalID: 1881367127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_261
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 501
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd46da2569c014568ad3d6dc46ab3ac7
+      internalID: -2113116323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_262
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 501
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f241e3a08489d48d7a276f1af1c00c8d
+      internalID: -310113801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_263
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 501
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0336404a4e04968aee7af1eb0ffec1
+      internalID: -273718553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_264
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 501
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea8cbdd0f57f45ac867114382087287
+      internalID: -1910964877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_265
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 501
+        width: 158
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44de8dffcbbe24c378fd96f9c7e98aed
+      internalID: -1433567969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_266
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 503
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ae8f2737d0c427ca811382a58ffda2
+      internalID: -1189136227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_267
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 503
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802f43ac7b0a74f70aaf81d40c4090d6
+      internalID: 987332503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_268
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 503
+        width: 160
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7af8ae74338423284f1e55f3d74848
+      internalID: -733625189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_269
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 503
+        width: 160
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fde6e019d2c4569bfb631b35547a92
+      internalID: 168796755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_270
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 502
+        width: 159
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfb7a92097a84cc884ee8e5ac847a17
+      internalID: 1816258572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_271
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 502
+        width: 158
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd71943657aa433fa9f87947e4aee42
+      internalID: -503601312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_272
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 263
+        width: 160
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d983f917a5d6d4a19976c985334101e1
+      internalID: 1210035061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_273
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 263
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b3d8b3ea42248dcbd945f0eed8bef8
+      internalID: -653059011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_274
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 263
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa43a4d7543c4f53bdaee64c3271353
+      internalID: 1109998999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_275
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 263
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4357f2e967148ce8796bc0fcef1e4d
+      internalID: 490765450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_276
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 263
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c34baee38a0345fd8bbb56c24ff51da
+      internalID: 1616256637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_277
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 263
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf9a076ae65e446c94bfda2f8dce4ff
+      internalID: 1571998300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_278
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 263
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7f63cd573e5485e96f3093c37d825f
+      internalID: 344118554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_279
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 263
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05809a8a9f74e435f86b2e3f11f87711
+      internalID: 1364176643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_280
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 263
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0775671a0bb7d41d3b4e0cd898db9e53
+      internalID: 669032734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_281
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 263
+        width: 160
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33c975e94ac546dfba4fb5771d5fe65
+      internalID: -1633082818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_282
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 263
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17fa5fbd90b242d4b74fbb8c5a9e3e0
+      internalID: -1284807529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_283
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 263
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77612d466197b4de69ce3b3ab1e12ff0
+      internalID: 787217080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_284
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 263
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5961f584b9a442fac4f6ef831034eb
+      internalID: 502252227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_285
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 263
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340953b7de336462c971629e7d13e6ec
+      internalID: -1265974447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_286
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 263
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d155f6d70a5d346adabcb5598952b61e
+      internalID: 1490299920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_287
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 263
+        width: 159
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917d9ff4401bf456fa7dd70de6093dd2
+      internalID: 1723423252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_288
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 263
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bee7fde5d3a4acb83161e4657d4d69
+      internalID: 343737880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_289
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 22
+        width: 161
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864c0b06422a4493f9ece8256b844637
+      internalID: 1308435633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_290
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 22
+        width: 160
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11b800c460f144598c7cac73caab6d3
+      internalID: -1881428204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_291
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 22
+        width: 160
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a33a38956444218901361194428d37
+      internalID: 1850629732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_292
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 22
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a793be7afba2f4f84b06870cd05cc5b1
+      internalID: 89662452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_293
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 22
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84a0ed6f24c346b78038cb3e762ee71
+      internalID: -677839324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_294
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 22
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1dd77a953b1423cbb84facd3f4515c
+      internalID: -1307408228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_295
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 22
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cab071ff05a4df4a6a6e6589326699
+      internalID: 882006515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_296
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 22
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6952c89e8854e5b874ede15cf8f292
+      internalID: 2038346367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_297
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 22
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27206657d5f414f6c941eebdd5ce3ebe
+      internalID: 1507598998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_298
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 22
+        width: 156
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9568668d29942409abfdf6838993a0cc
+      internalID: -1608605371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coffee_Sprite_Ani_299
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 22
+        width: 158
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52fb2f74a0f347f9b616e4a3be49fc9
+      internalID: 1795033704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d77caaef4470f4f349792ceeb10dcfe6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Coffee_Sprite_Ani_0: 1309981376
+      Coffee_Sprite_Ani_1: 1270299188
+      Coffee_Sprite_Ani_10: 1583367273
+      Coffee_Sprite_Ani_100: -606547407
+      Coffee_Sprite_Ani_101: -167947926
+      Coffee_Sprite_Ani_102: -1897565369
+      Coffee_Sprite_Ani_103: -854369897
+      Coffee_Sprite_Ani_104: -1457050713
+      Coffee_Sprite_Ani_105: -1250322772
+      Coffee_Sprite_Ani_106: -1898644358
+      Coffee_Sprite_Ani_107: 976161675
+      Coffee_Sprite_Ani_108: 1556177192
+      Coffee_Sprite_Ani_109: -2020145804
+      Coffee_Sprite_Ani_11: 1830470447
+      Coffee_Sprite_Ani_110: -1013554808
+      Coffee_Sprite_Ani_111: 1298895954
+      Coffee_Sprite_Ani_112: 1887390611
+      Coffee_Sprite_Ani_113: -608374591
+      Coffee_Sprite_Ani_114: -1239113392
+      Coffee_Sprite_Ani_115: -119305073
+      Coffee_Sprite_Ani_116: -332218495
+      Coffee_Sprite_Ani_117: -1959773745
+      Coffee_Sprite_Ani_118: -500333037
+      Coffee_Sprite_Ani_119: -234952061
+      Coffee_Sprite_Ani_12: -906027596
+      Coffee_Sprite_Ani_120: 1271309265
+      Coffee_Sprite_Ani_121: 1257405334
+      Coffee_Sprite_Ani_122: -1990173479
+      Coffee_Sprite_Ani_123: 865179810
+      Coffee_Sprite_Ani_124: 2084623431
+      Coffee_Sprite_Ani_125: -268782326
+      Coffee_Sprite_Ani_126: 527966971
+      Coffee_Sprite_Ani_127: 6145894
+      Coffee_Sprite_Ani_128: -1511016427
+      Coffee_Sprite_Ani_129: -304051809
+      Coffee_Sprite_Ani_13: -915335815
+      Coffee_Sprite_Ani_130: 1400488670
+      Coffee_Sprite_Ani_131: 1347888857
+      Coffee_Sprite_Ani_132: 1093105748
+      Coffee_Sprite_Ani_133: -1417217126
+      Coffee_Sprite_Ani_134: -1609471233
+      Coffee_Sprite_Ani_135: 1146344492
+      Coffee_Sprite_Ani_136: 10555044
+      Coffee_Sprite_Ani_137: 1562847518
+      Coffee_Sprite_Ani_138: 1564817953
+      Coffee_Sprite_Ani_139: 1041985852
+      Coffee_Sprite_Ani_14: 1061708198
+      Coffee_Sprite_Ani_140: 487479867
+      Coffee_Sprite_Ani_141: -249952765
+      Coffee_Sprite_Ani_142: 1341211468
+      Coffee_Sprite_Ani_143: -1882768133
+      Coffee_Sprite_Ani_144: -1120291654
+      Coffee_Sprite_Ani_145: 260929158
+      Coffee_Sprite_Ani_146: 1977204918
+      Coffee_Sprite_Ani_147: 1296654615
+      Coffee_Sprite_Ani_148: 1261669341
+      Coffee_Sprite_Ani_149: -199873131
+      Coffee_Sprite_Ani_15: -273950455
+      Coffee_Sprite_Ani_150: 1747333234
+      Coffee_Sprite_Ani_151: 1376211919
+      Coffee_Sprite_Ani_152: -170018041
+      Coffee_Sprite_Ani_153: 1344140810
+      Coffee_Sprite_Ani_154: -1558815317
+      Coffee_Sprite_Ani_155: -1009050162
+      Coffee_Sprite_Ani_156: 2025488723
+      Coffee_Sprite_Ani_157: 605315030
+      Coffee_Sprite_Ani_158: 770393282
+      Coffee_Sprite_Ani_159: 331267522
+      Coffee_Sprite_Ani_16: -1464934795
+      Coffee_Sprite_Ani_160: -245074867
+      Coffee_Sprite_Ani_161: -1847638295
+      Coffee_Sprite_Ani_162: -1813024923
+      Coffee_Sprite_Ani_163: -3219756
+      Coffee_Sprite_Ani_164: 368149940
+      Coffee_Sprite_Ani_165: 195756207
+      Coffee_Sprite_Ani_166: -1946621322
+      Coffee_Sprite_Ani_167: 784026723
+      Coffee_Sprite_Ani_168: -393355701
+      Coffee_Sprite_Ani_169: -1439645440
+      Coffee_Sprite_Ani_17: 1815193573
+      Coffee_Sprite_Ani_170: -1273196676
+      Coffee_Sprite_Ani_171: 1749742269
+      Coffee_Sprite_Ani_172: -1834876492
+      Coffee_Sprite_Ani_173: 1357375211
+      Coffee_Sprite_Ani_174: -1210562529
+      Coffee_Sprite_Ani_175: 1087880694
+      Coffee_Sprite_Ani_176: -1809915170
+      Coffee_Sprite_Ani_177: -1026576594
+      Coffee_Sprite_Ani_178: 757392639
+      Coffee_Sprite_Ani_179: 1785143188
+      Coffee_Sprite_Ani_18: -1179973391
+      Coffee_Sprite_Ani_180: 1128232675
+      Coffee_Sprite_Ani_181: -2043755202
+      Coffee_Sprite_Ani_182: -116692552
+      Coffee_Sprite_Ani_183: 988336305
+      Coffee_Sprite_Ani_184: 398280909
+      Coffee_Sprite_Ani_185: -62072287
+      Coffee_Sprite_Ani_186: 1608907134
+      Coffee_Sprite_Ani_187: 853747699
+      Coffee_Sprite_Ani_188: 1648288814
+      Coffee_Sprite_Ani_189: -961606881
+      Coffee_Sprite_Ani_19: -1960637020
+      Coffee_Sprite_Ani_190: -1482840441
+      Coffee_Sprite_Ani_191: 496860965
+      Coffee_Sprite_Ani_192: -1942409040
+      Coffee_Sprite_Ani_193: -2124278449
+      Coffee_Sprite_Ani_194: 246261228
+      Coffee_Sprite_Ani_195: -336220244
+      Coffee_Sprite_Ani_196: -680968481
+      Coffee_Sprite_Ani_197: -1599203842
+      Coffee_Sprite_Ani_198: 1708755566
+      Coffee_Sprite_Ani_199: 2083603118
+      Coffee_Sprite_Ani_2: 1682516991
+      Coffee_Sprite_Ani_20: -34242982
+      Coffee_Sprite_Ani_200: 1104241616
+      Coffee_Sprite_Ani_201: 134115607
+      Coffee_Sprite_Ani_202: -90794358
+      Coffee_Sprite_Ani_203: 1884340905
+      Coffee_Sprite_Ani_204: -822380765
+      Coffee_Sprite_Ani_205: 1613788750
+      Coffee_Sprite_Ani_206: 1508154633
+      Coffee_Sprite_Ani_207: 614693616
+      Coffee_Sprite_Ani_208: -583490186
+      Coffee_Sprite_Ani_209: -433870271
+      Coffee_Sprite_Ani_21: -1260576325
+      Coffee_Sprite_Ani_210: 887115098
+      Coffee_Sprite_Ani_211: 578882907
+      Coffee_Sprite_Ani_212: -185527383
+      Coffee_Sprite_Ani_213: 1693212330
+      Coffee_Sprite_Ani_214: -440184944
+      Coffee_Sprite_Ani_215: 1065689543
+      Coffee_Sprite_Ani_216: 830131644
+      Coffee_Sprite_Ani_217: 684695572
+      Coffee_Sprite_Ani_218: -268820390
+      Coffee_Sprite_Ani_219: -166054922
+      Coffee_Sprite_Ani_22: 1204004887
+      Coffee_Sprite_Ani_220: -1075473487
+      Coffee_Sprite_Ani_221: -2101966094
+      Coffee_Sprite_Ani_222: 352282932
+      Coffee_Sprite_Ani_223: 456305584
+      Coffee_Sprite_Ani_224: -1978725068
+      Coffee_Sprite_Ani_225: -880937050
+      Coffee_Sprite_Ani_226: -1107256316
+      Coffee_Sprite_Ani_227: -716792894
+      Coffee_Sprite_Ani_228: 2141370595
+      Coffee_Sprite_Ani_229: -1194108064
+      Coffee_Sprite_Ani_23: 1273214198
+      Coffee_Sprite_Ani_230: 382489823
+      Coffee_Sprite_Ani_231: -524385989
+      Coffee_Sprite_Ani_232: 1667921634
+      Coffee_Sprite_Ani_233: -1416183018
+      Coffee_Sprite_Ani_234: -2032262560
+      Coffee_Sprite_Ani_235: 2062000966
+      Coffee_Sprite_Ani_236: 1080940131
+      Coffee_Sprite_Ani_237: -1620407770
+      Coffee_Sprite_Ani_238: -1766238315
+      Coffee_Sprite_Ani_239: 1741909960
+      Coffee_Sprite_Ani_24: -480092200
+      Coffee_Sprite_Ani_240: 589988122
+      Coffee_Sprite_Ani_241: -1071944538
+      Coffee_Sprite_Ani_242: -948525579
+      Coffee_Sprite_Ani_243: -922707003
+      Coffee_Sprite_Ani_244: 62296828
+      Coffee_Sprite_Ani_245: 1228905452
+      Coffee_Sprite_Ani_246: 629272147
+      Coffee_Sprite_Ani_247: -1782124730
+      Coffee_Sprite_Ani_248: 2009049097
+      Coffee_Sprite_Ani_249: 865615624
+      Coffee_Sprite_Ani_25: 776951586
+      Coffee_Sprite_Ani_250: 1563387324
+      Coffee_Sprite_Ani_251: 1763678068
+      Coffee_Sprite_Ani_252: 786844828
+      Coffee_Sprite_Ani_253: -909021204
+      Coffee_Sprite_Ani_254: 1496356334
+      Coffee_Sprite_Ani_255: -980286372
+      Coffee_Sprite_Ani_256: 1168781777
+      Coffee_Sprite_Ani_257: 1041778143
+      Coffee_Sprite_Ani_258: 1320194386
+      Coffee_Sprite_Ani_259: 1230743681
+      Coffee_Sprite_Ani_26: -2087078998
+      Coffee_Sprite_Ani_260: 1881367127
+      Coffee_Sprite_Ani_261: -2113116323
+      Coffee_Sprite_Ani_262: -310113801
+      Coffee_Sprite_Ani_263: -273718553
+      Coffee_Sprite_Ani_264: -1910964877
+      Coffee_Sprite_Ani_265: -1433567969
+      Coffee_Sprite_Ani_266: -1189136227
+      Coffee_Sprite_Ani_267: 987332503
+      Coffee_Sprite_Ani_268: -733625189
+      Coffee_Sprite_Ani_269: 168796755
+      Coffee_Sprite_Ani_27: 894724979
+      Coffee_Sprite_Ani_270: 1816258572
+      Coffee_Sprite_Ani_271: -503601312
+      Coffee_Sprite_Ani_272: 1210035061
+      Coffee_Sprite_Ani_273: -653059011
+      Coffee_Sprite_Ani_274: 1109998999
+      Coffee_Sprite_Ani_275: 490765450
+      Coffee_Sprite_Ani_276: 1616256637
+      Coffee_Sprite_Ani_277: 1571998300
+      Coffee_Sprite_Ani_278: 344118554
+      Coffee_Sprite_Ani_279: 1364176643
+      Coffee_Sprite_Ani_28: -503155116
+      Coffee_Sprite_Ani_280: 669032734
+      Coffee_Sprite_Ani_281: -1633082818
+      Coffee_Sprite_Ani_282: -1284807529
+      Coffee_Sprite_Ani_283: 787217080
+      Coffee_Sprite_Ani_284: 502252227
+      Coffee_Sprite_Ani_285: -1265974447
+      Coffee_Sprite_Ani_286: 1490299920
+      Coffee_Sprite_Ani_287: 1723423252
+      Coffee_Sprite_Ani_288: 343737880
+      Coffee_Sprite_Ani_289: 1308435633
+      Coffee_Sprite_Ani_29: -502258181
+      Coffee_Sprite_Ani_290: -1881428204
+      Coffee_Sprite_Ani_291: 1850629732
+      Coffee_Sprite_Ani_292: 89662452
+      Coffee_Sprite_Ani_293: -677839324
+      Coffee_Sprite_Ani_294: -1307408228
+      Coffee_Sprite_Ani_295: 882006515
+      Coffee_Sprite_Ani_296: 2038346367
+      Coffee_Sprite_Ani_297: 1507598998
+      Coffee_Sprite_Ani_298: -1608605371
+      Coffee_Sprite_Ani_299: 1795033704
+      Coffee_Sprite_Ani_3: 1331541525
+      Coffee_Sprite_Ani_30: -1486827244
+      Coffee_Sprite_Ani_31: -1583795420
+      Coffee_Sprite_Ani_32: -695663273
+      Coffee_Sprite_Ani_33: -732541151
+      Coffee_Sprite_Ani_34: 680253244
+      Coffee_Sprite_Ani_35: -713663726
+      Coffee_Sprite_Ani_36: -1555563203
+      Coffee_Sprite_Ani_37: -1511561494
+      Coffee_Sprite_Ani_38: 1228850527
+      Coffee_Sprite_Ani_39: -1122921311
+      Coffee_Sprite_Ani_4: -1571881418
+      Coffee_Sprite_Ani_40: 1491368895
+      Coffee_Sprite_Ani_41: 2003329155
+      Coffee_Sprite_Ani_42: -1048427518
+      Coffee_Sprite_Ani_43: -523683246
+      Coffee_Sprite_Ani_44: 2107510080
+      Coffee_Sprite_Ani_45: -946196444
+      Coffee_Sprite_Ani_46: 1538043680
+      Coffee_Sprite_Ani_47: -2102830508
+      Coffee_Sprite_Ani_48: -1361506479
+      Coffee_Sprite_Ani_49: 150040007
+      Coffee_Sprite_Ani_5: 1706966598
+      Coffee_Sprite_Ani_50: 198069026
+      Coffee_Sprite_Ani_51: -1940137277
+      Coffee_Sprite_Ani_52: -1169247294
+      Coffee_Sprite_Ani_53: -331083628
+      Coffee_Sprite_Ani_54: -761228261
+      Coffee_Sprite_Ani_55: -1504815060
+      Coffee_Sprite_Ani_56: -32065900
+      Coffee_Sprite_Ani_57: -791756777
+      Coffee_Sprite_Ani_58: 1697933127
+      Coffee_Sprite_Ani_59: -770648789
+      Coffee_Sprite_Ani_6: -1787445998
+      Coffee_Sprite_Ani_60: -825928194
+      Coffee_Sprite_Ani_61: 1953663262
+      Coffee_Sprite_Ani_62: -1049941842
+      Coffee_Sprite_Ani_63: 203497203
+      Coffee_Sprite_Ani_64: -2075062437
+      Coffee_Sprite_Ani_65: 1418273632
+      Coffee_Sprite_Ani_66: -1521459859
+      Coffee_Sprite_Ani_67: 1214976506
+      Coffee_Sprite_Ani_68: -1576631841
+      Coffee_Sprite_Ani_69: 1659470861
+      Coffee_Sprite_Ani_7: -1787516282
+      Coffee_Sprite_Ani_70: -491109355
+      Coffee_Sprite_Ani_71: 79924328
+      Coffee_Sprite_Ani_72: 653758431
+      Coffee_Sprite_Ani_73: -521842171
+      Coffee_Sprite_Ani_74: -1206650784
+      Coffee_Sprite_Ani_75: 831423185
+      Coffee_Sprite_Ani_76: 40126603
+      Coffee_Sprite_Ani_77: -500624839
+      Coffee_Sprite_Ani_78: -200643583
+      Coffee_Sprite_Ani_79: 1176416934
+      Coffee_Sprite_Ani_8: 947407837
+      Coffee_Sprite_Ani_80: 814835654
+      Coffee_Sprite_Ani_81: 548408785
+      Coffee_Sprite_Ani_82: -1084868779
+      Coffee_Sprite_Ani_83: 1014403647
+      Coffee_Sprite_Ani_84: 63507232
+      Coffee_Sprite_Ani_85: -1684812496
+      Coffee_Sprite_Ani_86: -1948686294
+      Coffee_Sprite_Ani_87: -1296775268
+      Coffee_Sprite_Ani_88: 1082189218
+      Coffee_Sprite_Ani_89: 1982253651
+      Coffee_Sprite_Ani_9: 742157314
+      Coffee_Sprite_Ani_90: 637753253
+      Coffee_Sprite_Ani_91: -449733680
+      Coffee_Sprite_Ani_92: 1741134276
+      Coffee_Sprite_Ani_93: 290299386
+      Coffee_Sprite_Ani_94: 881796605
+      Coffee_Sprite_Ani_95: 974678913
+      Coffee_Sprite_Ani_96: -1080373466
+      Coffee_Sprite_Ani_97: -2134627176
+      Coffee_Sprite_Ani_98: 1971744497
+      Coffee_Sprite_Ani_99: 980061487
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

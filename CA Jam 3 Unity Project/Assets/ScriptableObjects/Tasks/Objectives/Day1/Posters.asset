@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 648a30120fbb71f4ebb41299f32a96f1, type: 3}
+  m_Name: Posters
+  m_EditorClassIdentifier: 
+  taskId: {fileID: 0}
+  isSticky: 0
+  taskName: Hang Posters
+  numRequired: 5
+  numCompleted: 0
+  taskItem: {fileID: 11400000, guid: 22da94512774d37469d31e7ad33f4f3e, type: 2}

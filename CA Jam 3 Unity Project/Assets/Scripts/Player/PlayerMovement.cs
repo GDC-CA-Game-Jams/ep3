@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Services;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
@@ -14,8 +15,13 @@ public class PlayerMovement : MonoBehaviour
     [Tooltip("How much force will be applied to the player when they jump")]
     [SerializeField] private float jumpForce = 10;
 
-    [Tooltip("How long the jump ray is. When this hits the ground the player will be able to jump again")]
+    [Tooltip("How much beyond the player the jump ray extends")]
     [SerializeField] private float jumpRayDistance = 1;
+    
+    /// <summary>
+    /// The attached Animator. Used for the stretch and squish walking animation
+    /// </summary>
+    private Animator anim;
     
     /// <summary>
     /// Modification applied to the move force
@@ -30,8 +36,14 @@ public class PlayerMovement : MonoBehaviour
     /// <summary>
     /// The attached rigidbody
     /// </summary>
-    private Rigidbody rb;
+    public Rigidbody rb;
+    //we are setting it in the prefab/inspector...because that works.
 
+    /// <summary>
+    /// The combined distance of the player's Y scale and the extension beyond that
+    /// </summary>
+    private float combinedRayLength;
+    
     /// <summary>
     /// Modification applied additivly to the move force
     /// </summary>
@@ -55,13 +67,14 @@ public class PlayerMovement : MonoBehaviour
     /// </summary>
     void Start()
     {
-        rb = gameObject.GetComponent<Rigidbody>();
+        ServiceLocator.Instance.Get<TaskManager>().Init();
+        ServiceLocator.Instance.Get<GameManager>().Init();
+        anim = gameObject.GetComponentInChildren<Animator>();
         MoveForceMod = 10;
     }
 
     /// <summary>
     /// Move the player laterally
-    /// TODO: Add a jump
     /// </summary>
     void Update()
     {
@@ -76,14 +89,15 @@ public class PlayerMovement : MonoBehaviour
         // Set the Z and X to the correct values based on the buttons pressed
         moveVec.z = inlineMove * (moveForce + moveForceMod) * Time.deltaTime;
         moveVec.x = strafeMove * (moveForce + moveForceMod) * Time.deltaTime;
+
+        combinedRayLength = jumpRayDistance + transform.localScale.y;
         
         // Show the jump ray in the editor window
-        Debug.DrawRay(transform.position, Vector3.down * jumpRayDistance, Color.green, 0.1f);
+        Debug.DrawRay(transform.position, Vector3.down * combinedRayLength, Color.green, 0.1f);
 
         // Jump if the player hit jump and they are on the ground
-        if (jump && Physics.Raycast(transform.position, Vector3.down, jumpRayDistance, ~LayerMask.NameToLayer("Default")))
+        if (jump && Physics.Raycast(transform.position, Vector3.down, combinedRayLength, ~LayerMask.NameToLayer("Default")))
         {
-            Debug.Log("Jumping!");
             moveVec.y = jumpForce;
         }
         
@@ -93,11 +107,14 @@ public class PlayerMovement : MonoBehaviour
         if (moveVec.magnitude != 0)
         {
             // Apply the force
+            Debug.Log(moveVec);
             rb.AddRelativeForce(moveVec);
         }
         else
         {
             rb.velocity = new Vector3(0, rb.velocity.y, 0); 
         }
+        
+        anim.SetBool("Move", (rb.velocity.x != 0 || rb.velocity.z != 0));
     }
 }
