@@ -386,6 +386,7 @@ MonoBehaviour:
   maxSpeed: 100
   jumpForce: 50
   jumpRayDistance: 0.1
+  rb: {fileID: 271545736443160859}
 --- !u!114 &2034408929358815993
 MonoBehaviour:
   m_ObjectHideFlags: 0
