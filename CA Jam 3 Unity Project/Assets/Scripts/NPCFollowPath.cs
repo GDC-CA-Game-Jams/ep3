@@ -24,7 +24,7 @@ public class NPCFollowPath : MonoBehaviour
             if (targetPathNode == null)
             {
                 // We've run out of path!
-                Debug.Log("reached end of path");
+                RestartPath();
                 return;
             }
         }
@@ -54,8 +54,14 @@ public class NPCFollowPath : MonoBehaviour
         }
         else
         {
-            targetPathNode = null;
-            Debug.Log("reached end of path");
+            RestartPath();
         }
+    }
+
+    void RestartPath()
+        //start on the path again once you get to the end
+    {
+        pathNodeIndex = 0;
+        Debug.Log("restarting...");
     }
 }
