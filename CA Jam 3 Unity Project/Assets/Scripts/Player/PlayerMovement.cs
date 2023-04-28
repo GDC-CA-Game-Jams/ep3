@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Services;
@@ -21,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
     /// <summary>
     /// The attached Animator. Used for the stretch and squish walking animation
     /// </summary>
-    private Animator anim;
+    [SerializeField] private Animator anim;
     
     /// <summary>
     /// Modification applied to the move force
@@ -69,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
     {
         ServiceLocator.Instance.Get<TaskManager>().Init();
         ServiceLocator.Instance.Get<GameManager>().Init();
-        anim = gameObject.GetComponentInChildren<Animator>();
+        //anim = gameObject.GetComponentInChildren<Animator>();
         MoveForceMod = 10;
     }
 
@@ -103,11 +104,10 @@ public class PlayerMovement : MonoBehaviour
         
         // Clamp the speed to the maximum allowed
         moveVec = Vector3.ClampMagnitude(moveVec, (maxSpeed + maxSpeedMod));
-
+        
         if (moveVec.magnitude != 0)
         {
             // Apply the force
-            Debug.Log(moveVec);
             rb.AddRelativeForce(moveVec);
         }
         else
@@ -116,5 +116,11 @@ public class PlayerMovement : MonoBehaviour
         }
         
         anim.SetBool("Move", (rb.velocity.x != 0 || rb.velocity.z != 0));
+    }
+
+    private void OnDestroy()
+    {
+        ServiceLocator.Instance.Get<GameManager>().EndDay();
+        ServiceLocator.Instance.Get<TaskManager>().ClearTasks();
     }
 }

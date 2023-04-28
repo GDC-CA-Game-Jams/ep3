@@ -292,7 +292,7 @@ MonoBehaviour:
   StickySpawn: {fileID: 2384216242254097769}
   ClipboardTaskPrefab: {fileID: 71338870726637793, guid: 1f38dacac38c6df4b800551e86772ccb, type: 3}
   StickyNotePrefab: {fileID: 1452711396424869908, guid: a5c2f06b33dd1244481b21dc0cd7c0b3, type: 3}
-  CheckBoxEmpty: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  CheckBoxEmpty: {fileID: 21300000, guid: 03cefa94d5aa9d74993fb2138af9d607, type: 3}
   CheckBoxTicked: {fileID: 21300000, guid: d4780dc1205c7c7478c970d8c61d24e8, type: 3}
   fonts:
   - {fileID: 11400000, guid: 61a331fbf08892745a7bb0ebaeecc53f, type: 2}

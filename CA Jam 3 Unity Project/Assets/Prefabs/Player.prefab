@@ -386,6 +386,7 @@ MonoBehaviour:
   maxSpeed: 100
   jumpForce: 50
   jumpRayDistance: 0.1
+  anim: {fileID: 1677646848023001785}
   rb: {fileID: 271545736443160859}
 --- !u!114 &2034408929358815993
 MonoBehaviour:
@@ -415,4 +416,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseKey: 27
-  pauseScene: PauseScene
+  pauseScene: Pause Screen

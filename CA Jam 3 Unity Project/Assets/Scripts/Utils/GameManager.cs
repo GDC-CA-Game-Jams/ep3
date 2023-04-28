@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Services;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : IService
 {
@@ -9,6 +10,11 @@ public class GameManager : IService
     
     private int day = 0;
 
+    /// <summary>
+    /// True if the game is paused, false if it is not
+    /// </summary>
+    private bool isPaused;
+    
     public GameManager()
     {
         Debug.Log("GameManager Initiating!");
@@ -36,5 +42,35 @@ public class GameManager : IService
         Debug.Log("End the day!");
         ++day;
         InitDay();
+    }
+
+    public void TogglePause(string pauseScene)
+    {
+
+        if (isPaused)
+        {
+            SceneManager.UnloadSceneAsync(pauseScene);
+            Time.timeScale = 1;
+        }
+        else
+        {
+            SceneManager.LoadScene(pauseScene, LoadSceneMode.Additive);
+            Time.timeScale = 0;
+        }
+
+        isPaused = !isPaused;
+        
+    }
+
+    public void Unpause(string pauseScene)
+    {
+        if (!isPaused)
+        {
+            return;
+        }
+
+        SceneManager.UnloadSceneAsync(pauseScene);
+        Time.timeScale = 1;
+        isPaused = false;
     }
 }
