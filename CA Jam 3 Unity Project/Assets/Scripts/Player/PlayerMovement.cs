@@ -36,7 +36,8 @@ public class PlayerMovement : MonoBehaviour
     /// <summary>
     /// The attached rigidbody
     /// </summary>
-    private Rigidbody rb;
+    public Rigidbody rb;
+    //we are setting it in the prefab/inspector...because that works.
 
     /// <summary>
     /// The combined distance of the player's Y scale and the extension beyond that
@@ -68,7 +69,6 @@ public class PlayerMovement : MonoBehaviour
     {
         ServiceLocator.Instance.Get<TaskManager>().Init();
         ServiceLocator.Instance.Get<GameManager>().Init();
-        rb = gameObject.GetComponent<Rigidbody>();
         anim = gameObject.GetComponentInChildren<Animator>();
         MoveForceMod = 10;
     }
@@ -107,6 +107,7 @@ public class PlayerMovement : MonoBehaviour
         if (moveVec.magnitude != 0)
         {
             // Apply the force
+            Debug.Log(moveVec);
             rb.AddRelativeForce(moveVec);
         }
         else
