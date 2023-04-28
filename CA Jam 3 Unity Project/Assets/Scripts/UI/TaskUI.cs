@@ -142,9 +142,10 @@ public class TaskUI : MonoBehaviour
                 RemoveSticky();
             }
 
-            foreach(var task in entries)
+            Dictionary<TaskSO, GameObject> temp = entries;
+            for (int i = 0; i < temp.Count; ++i)
             {
-                RemoveTask(task.Key);
+                RemoveTask(temp.ElementAt(i).Key);
             }
         }
     #endregion

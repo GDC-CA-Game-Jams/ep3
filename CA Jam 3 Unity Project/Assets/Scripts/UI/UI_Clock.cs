@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Services;
 using UnityEngine;
 
 public class UI_Clock : MonoBehaviour
@@ -62,6 +63,7 @@ public class UI_Clock : MonoBehaviour
             // Play end-of-day clock chime
 
             // Other end-of-day logic goes here
+            ServiceLocator.Instance.Get<GameManager>().EndDay();
 
             CancelInvoke();
         }

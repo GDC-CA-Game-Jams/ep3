@@ -14,6 +14,8 @@ public class TaskManager : IService
     public Stack<TaskSO> priorityTasks = new();
 
     private GameObject player;
+
+    private int tasksCompleted;
     
     public TaskManager()
     {
@@ -38,6 +40,7 @@ public class TaskManager : IService
 
     public void Init()
     {
+        tasksCompleted = 0;
         player = GameObject.FindWithTag("Player");
     }
     
@@ -106,6 +109,7 @@ public class TaskManager : IService
         if (baseTasks.Contains(task))
         {
             TaskUI.Instance.CompleteTask(task);
+            tasksCompleted++;
             baseTasks.Remove(task);
         }
 
@@ -113,6 +117,11 @@ public class TaskManager : IService
         {
             ServiceLocator.Instance.Get<GameManager>().EndDay();
         }
+    }
+
+    public int GetTasksComplete()
+    {
+        return tasksCompleted;
     }
 
     internal void ClearTasks()

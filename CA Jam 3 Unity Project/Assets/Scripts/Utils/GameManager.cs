@@ -14,6 +14,10 @@ public class GameManager : IService
     /// True if the game is paused, false if it is not
     /// </summary>
     private bool isPaused;
+
+    private GameObject player;
+
+    private Vector3 startPos;
     
     public GameManager()
     {
@@ -23,6 +27,10 @@ public class GameManager : IService
 
     public void Init()
     {
+        player = GameObject.FindWithTag("Player");
+        startPos = player.transform.position;
+        Debug.Log("player: " + player, player);
+        Debug.Log("startPos: " + startPos);
         InitDay();
     }
     
@@ -39,7 +47,7 @@ public class GameManager : IService
     public void EndDay()
     {
         ServiceLocator.Instance.Get<TaskManager>().ClearTasks();
-        Debug.Log("End the day!");
+        player.transform.position = startPos;
         ++day;
         InitDay();
     }
