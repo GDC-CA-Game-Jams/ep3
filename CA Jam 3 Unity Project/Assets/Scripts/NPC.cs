@@ -4,17 +4,8 @@ using UnityEngine;
 
 public class NPC : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [Tooltip("The speech bubble that appears when the NPC is talking")]
+    [SerializeField] private GameObject speechBubble;
 
     void OnTriggerEnter(Collider other)
     {
@@ -24,6 +15,7 @@ public class NPC : MonoBehaviour
             PlayerMovement player = (PlayerMovement)other.gameObject.GetComponent("PlayerMovement");
             player.MaxSpeedMod = -80;
             player.MoveForceMod = -600;
+            speechBubble.SetActive(true);
         }
     }
 
@@ -35,6 +27,7 @@ public class NPC : MonoBehaviour
             PlayerMovement player = (PlayerMovement)other.gameObject.GetComponent("PlayerMovement");
             player.MaxSpeedMod = 0;
             player.MoveForceMod = 0;
+            speechBubble.SetActive(false);
         }
     }
 }
