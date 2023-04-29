@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class NPCFollowPath : MonoBehaviour
 {
-    public GameObject pathGO;
+    public string PathName; //set this in the inspector- it is the name of the path object
+    //should be unique for each NPC because they each follow a unique path.
+
+    public GameObject pathGO; //reference to the path object
 
     Transform targetPathNode;
     int pathNodeIndex = 0;
@@ -12,7 +15,7 @@ public class NPCFollowPath : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        pathGO = GameObject.Find("Path");
+        pathGO = GameObject.Find(PathName);
     }
 
     // Update is called once per frame
