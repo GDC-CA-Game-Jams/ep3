@@ -28613,11 +28613,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041538196343494368, guid: e1a7841ec50d54915b9d34ebb5c190a3, type: 3}
       propertyPath: followOffset.x
-      value: -4.83
+      value: -16.82
       objectReference: {fileID: 0}
     - target: {fileID: 9041538196343494368, guid: e1a7841ec50d54915b9d34ebb5c190a3, type: 3}
       propertyPath: followOffset.y
-      value: 5.2
+      value: 26.66
       objectReference: {fileID: 0}
     - target: {fileID: 9041538196343494368, guid: e1a7841ec50d54915b9d34ebb5c190a3, type: 3}
       propertyPath: followOffset.z
@@ -28625,7 +28625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9041538196343494368, guid: e1a7841ec50d54915b9d34ebb5c190a3, type: 3}
       propertyPath: followRotation.x
-      value: 23.06
+      value: 57.52
       objectReference: {fileID: 0}
     - target: {fileID: 9041538196343494368, guid: e1a7841ec50d54915b9d34ebb5c190a3, type: 3}
       propertyPath: followRotation.y
