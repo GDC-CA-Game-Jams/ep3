@@ -18319,6 +18319,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 896723006493856584, guid: 1df8cdb5290ae6c42a7c1bbebe1a8123, type: 3}
+      propertyPath: asset
+      value: 
+      objectReference: {fileID: 4900000, guid: 64f1086d7eb148e0b7cf581b9ce2a7a0, type: 3}
+    - target: {fileID: 896723006493856584, guid: 1df8cdb5290ae6c42a7c1bbebe1a8123, type: 3}
+      propertyPath: bubble
+      value: 
+      objectReference: {fileID: 1844253337}
     - target: {fileID: 5076123350103115168, guid: 1df8cdb5290ae6c42a7c1bbebe1a8123, type: 3}
       propertyPath: m_Name
       value: Day1StickyNPC2
@@ -19257,6 +19265,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 896723006493856584, guid: 97c66ec58e5486244b9ccec1f9f66b3f, type: 3}
+      propertyPath: asset
+      value: 
+      objectReference: {fileID: 4900000, guid: 02341b6dcb3736548941e44c02d76940, type: 3}
     - target: {fileID: 2359418023260721487, guid: 97c66ec58e5486244b9ccec1f9f66b3f, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -27325,6 +27337,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6323899748222442231, guid: c68ebaaf3b12aa64698f08c9a848cf1f, type: 3}
   m_PrefabInstance: {fileID: 1713896949}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1714659670 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2359418023260721487, guid: 8b71a92285817454b985f7a3c17536d5, type: 3}
+  m_PrefabInstance: {fileID: 1836362952}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1715803009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30152,6 +30169,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 896723006493856584, guid: 8b71a92285817454b985f7a3c17536d5, type: 3}
+      propertyPath: asset
+      value: 
+      objectReference: {fileID: 4900000, guid: 64f1086d7eb148e0b7cf581b9ce2a7a0, type: 3}
+    - target: {fileID: 896723006493856584, guid: 8b71a92285817454b985f7a3c17536d5, type: 3}
+      propertyPath: bubble
+      value: 
+      objectReference: {fileID: 1714659670}
     - target: {fileID: 5076123350103115168, guid: 8b71a92285817454b985f7a3c17536d5, type: 3}
       propertyPath: m_Name
       value: Day1StickyNPC1
@@ -30403,6 +30428,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6323899748222442231, guid: c68ebaaf3b12aa64698f08c9a848cf1f, type: 3}
   m_PrefabInstance: {fileID: 1843327933}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1844253337 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2359418023260721487, guid: 1df8cdb5290ae6c42a7c1bbebe1a8123, type: 3}
+  m_PrefabInstance: {fileID: 1145276840}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1844859847
 GameObject:
@@ -35318,6 +35348,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 896723006493856584, guid: f238adab4409bbb49bd1e027e0c8721b, type: 3}
+      propertyPath: asset
+      value: 
+      objectReference: {fileID: 4900000, guid: 8121abdea8e8e544ba939a48db005827, type: 3}
     - target: {fileID: 5076123350103115168, guid: f238adab4409bbb49bd1e027e0c8721b, type: 3}
       propertyPath: m_Name
       value: Day1SlowNPC1

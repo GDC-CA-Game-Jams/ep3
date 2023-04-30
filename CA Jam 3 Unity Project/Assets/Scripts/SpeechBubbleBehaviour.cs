@@ -29,13 +29,18 @@ public class SpeechBubbleBehaviour : MonoBehaviour
     [Tooltip("Speech bubble panel to resize with text")]
     [SerializeField] private GameObject bubble;
 
+    [SerializeField] private TextAsset asset;
+    
     // Start is called before the first frame update
     void Start()
-    {
+    { 
         DIALOG_PATH = Application.streamingAssetsPath + "/Dialog/" + dialogueFileName;
         camera = Camera.main.transform;
-        StreamReader reader = new StreamReader(DIALOG_PATH);
-        string temp = reader.ReadToEnd();
+        //TextAsset asset = Resources.Load<TextAsset>("Dialog/" + dialogueFileName);
+        Debug.Log("asset: " + asset.text);
+        //StreamReader reader = new StreamReader(DIALOG_PATH);
+        //string temp = reader.ReadToEnd();
+        string temp = asset.text;
         lines = temp.Split("\n");
         gameObject.SetActive(false);
     }
@@ -68,6 +73,10 @@ public class SpeechBubbleBehaviour : MonoBehaviour
         WaitForSeconds wait = new WaitForSeconds(dialogTime);
         while (true)
         {
+            if (lines is null || lines.Length == 0)
+            {
+                yield return null;
+            }
             string line = lines[lineIndex];
             text.text = line;
 
