@@ -45,12 +45,14 @@ public class SpeechBubbleBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         if (!gameObject.activeSelf)
         {
             return;
         }
         
         transform.LookAt(camera);
+        */
     }
 
     private IEnumerator ChooseLine()
