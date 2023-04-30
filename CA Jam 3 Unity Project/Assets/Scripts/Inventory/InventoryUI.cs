@@ -5,13 +5,13 @@ using UnityEngine;
 public class InventoryUI : MonoBehaviour
 {
     [SerializeField]
-    private Inventory Inventory;
+    private Inventory Inventory = null;
 
     [SerializeField]
-    private GameObject ContentBox;
+    private GameObject ContentBox = null;
 
     [SerializeField]
-    private GameObject ItemIconPrefab;
+    private GameObject ItemIconPrefab = null;
 
     private Dictionary<ItemData, ItemIcon> ItemIcons = new(); 
 
@@ -20,6 +20,12 @@ public class InventoryUI : MonoBehaviour
     {
         //register with the inventory
         Inventory.Updated.AddListener(HandleInventoryUpdate);
+
+        if(Inventory == null)
+        {
+            Debug.LogError("Inventory UI needs to be linked to Player Inventory!");
+            Debug.Break();
+        }
     }
 
     //TODO: This will need to be refactored, it is gross
