@@ -9,12 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 648a30120fbb71f4ebb41299f32a96f1, type: 3}
-  m_Name: Plants
+  m_Script: {fileID: 11500000, guid: 2b4f1a9ff8d4a594db4022b9b348fbc7, type: 3}
+  m_Name: WateringCan
   m_EditorClassIdentifier: 
-  taskId: {fileID: 0}
-  isSticky: 0
-  taskName: Water Plants
-  numRequired: 6
-  numCompleted: 0
-  taskItem: {fileID: 11400000, guid: d60b427c546f4c84ea18bd5c3d0b301a, type: 2}
+  id: WateringCan
+  icon: {fileID: 21300000, guid: 8f3ea9efbc4e1d044be7fdb2f1df8682, type: 3}
