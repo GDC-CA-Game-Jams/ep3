@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5423804047395770432}
   - component: {fileID: 5423804047395770433}
   - component: {fileID: 5423804047395770434}
+  - component: {fileID: 9108004146681217751}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -101,6 +102,21 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &9108004146681217751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5423804047395770435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76bb0e6303e1b3447b3f760946afee6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Inventory: {fileID: 0}
+  ContentBox: {fileID: 0}
+  ItemIconPrefab: {fileID: 4928726851934025656, guid: 24fa6e61aef412e4b8f5a038b254902e, type: 3}
 --- !u!1001 &7661547660304769816
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -108,6 +124,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5423804047395770495}
     m_Modifications:
+    - target: {fileID: 2384216241406609308, guid: cc687882b5b5988489cc34eaf6d07264, type: 3}
+      propertyPath: m_Size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2384216241430745552, guid: cc687882b5b5988489cc34eaf6d07264, type: 3}
       propertyPath: m_Name
       value: Task_UI
@@ -200,12 +220,24 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2384216241449584091, guid: cc687882b5b5988489cc34eaf6d07264, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 76.60706
+      objectReference: {fileID: 0}
+    - target: {fileID: 2384216241449584091, guid: cc687882b5b5988489cc34eaf6d07264, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000038146973
+      objectReference: {fileID: 0}
     - target: {fileID: 2384216241775404466, guid: cc687882b5b5988489cc34eaf6d07264, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2384216241775404466, guid: cc687882b5b5988489cc34eaf6d07264, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2384216241775404466, guid: cc687882b5b5988489cc34eaf6d07264, type: 3}
+      propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2384216242627404847, guid: cc687882b5b5988489cc34eaf6d07264, type: 3}
