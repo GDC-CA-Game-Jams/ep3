@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1878857606650495252}
   - component: {fileID: 5570471790404960310}
   - component: {fileID: 9041538196343494368}
+  - component: {fileID: 7234047394986122554}
   m_Layer: 3
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -131,6 +132,37 @@ MonoBehaviour:
   followObject: {fileID: 1225761225041275136}
   followOffset: {x: 0, y: 6.5, z: -5.12}
   followRotation: {x: 35, y: 0, z: 0}
+--- !u!114 &7234047394986122554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541125613128994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1852453180
+      Data2: 1089115989
+      Data3: 750236847
+      Data4: 535405623
+    Path: event:/BG/amb_office
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &3738533420823842315
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,6 +301,7 @@ GameObject:
   - component: {fileID: 8273760634735747291}
   - component: {fileID: 4391600120440721188}
   - component: {fileID: 5034241774101195166}
+  - component: {fileID: 1742619708574467924}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -471,6 +504,37 @@ MonoBehaviour:
       Data3: 1607034765
       Data4: 38314785
     Path: event:/SFX/obj_shared_itemput
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1742619708574467924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7943098415773013364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 257030423
+      Data2: 1314089403
+      Data3: -994354557
+      Data4: 1450128604
+    Path: event:/UI/ui_finish_task
   Event: 
   PlayEvent: 0
   StopEvent: 0

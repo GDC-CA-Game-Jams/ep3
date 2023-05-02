@@ -9,7 +9,8 @@ using UnityEngine;
 enum STUDIO_EVENT_EMITTERS : int
 {
     ITEM_GET,
-    ITEM_PUT
+    ITEM_PUT,
+    TASK_BASE_COMPLETE
 }
 
 public class TaskManager : IService
@@ -121,6 +122,9 @@ public class TaskManager : IService
 
         if (baseTasks.Contains(task))
         {
+            // Play base task completion sound
+            studioEventEmitters[(int)STUDIO_EVENT_EMITTERS.TASK_BASE_COMPLETE].Play();
+
             TaskUI.Instance.CompleteTask(task);
             tasksCompleted++;
             baseTasks.Remove(task);
