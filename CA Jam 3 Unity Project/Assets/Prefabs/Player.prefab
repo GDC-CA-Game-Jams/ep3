@@ -383,7 +383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1025c38b0511e4a249098de2d943760f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveForce: 1000
+  moveForce: 5000
   maxSpeed: 100
   jumpForce: 50
   jumpRayDistance: 1.6

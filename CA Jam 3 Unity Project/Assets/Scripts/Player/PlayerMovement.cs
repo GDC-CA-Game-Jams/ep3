@@ -86,11 +86,15 @@ public class PlayerMovement : MonoBehaviour
 
         bool jump = Input.GetButton("Jump");
         Vector3 moveVec = Vector3.zero;
+        Vector3 jumpVec = Vector3.zero;
 
         // Set the Z and X to the correct values based on the buttons pressed
-        moveVec.z = inlineMove * (moveForce + moveForceMod) * Time.deltaTime;
-        moveVec.x = strafeMove * (moveForce + moveForceMod) * Time.deltaTime;
-
+        //moveVec.z = inlineMove * (moveForce + moveForceMod) * Time.deltaTime;
+        //moveVec.x = strafeMove * (moveForce + moveForceMod) * Time.deltaTime;
+        moveVec.x += inlineMove * (moveForce + moveForceMod) * Time.deltaTime;
+        moveVec.z += -strafeMove * (moveForce + moveForceMod) * Time.deltaTime;
+        rb.velocity = moveVec;
+        
         combinedRayLength = jumpRayDistance + transform.localScale.y;
         
         // Show the jump ray in the editor window
@@ -99,7 +103,7 @@ public class PlayerMovement : MonoBehaviour
         // Jump if the player hit jump and they are on the ground
         if (jump && Physics.Raycast(transform.position, Vector3.down, combinedRayLength, ~LayerMask.NameToLayer("Default")))
         {
-            moveVec.y = jumpForce;
+            jumpVec.y = jumpForce;
         }
         
         // Clamp the speed to the maximum allowed
@@ -108,7 +112,7 @@ public class PlayerMovement : MonoBehaviour
         if (moveVec.magnitude != 0)
         {
             // Apply the force
-            rb.AddRelativeForce(moveVec);
+            rb.AddRelativeForce(jumpVec);
         }
         else
         {
