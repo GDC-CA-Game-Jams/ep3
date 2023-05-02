@@ -18,6 +18,9 @@ public class UI_Clock : MonoBehaviour
 
     private bool isClockPaused = false;
 
+    [SerializeField] private FMODUnity.StudioEventEmitter hourTickSound;
+    [SerializeField] private FMODUnity.StudioEventEmitter endOfDaySound;
+
     private void Awake()
     {
         realtimeSecondsElapsed = initialRealtimeSecondsElapsed;
@@ -52,20 +55,23 @@ public class UI_Clock : MonoBehaviour
 
         print(numHoursElapsed + "hours elapsed.");
 
-        // Play clock chime
-
         if(numHoursElapsed == 8)
         {
             print("End of workday!");
 
             isClockPaused = true;
 
-            // Play end-of-day clock chime
+            // Play end-of-day clock chime sound
+            endOfDaySound.Play();
 
             // Other end-of-day logic goes here
             ServiceLocator.Instance.Get<GameManager>().EndDay();
 
             CancelInvoke();
+        }
+        else
+        {
+            hourTickSound.Play();
         }
     }
 }
