@@ -384,7 +384,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveForce: 5000
-  maxSpeed: 100
+  maxSpeed: 10
   jumpForce: 50
   jumpRayDistance: 1.6
   anim: {fileID: 1677646848023001785}
