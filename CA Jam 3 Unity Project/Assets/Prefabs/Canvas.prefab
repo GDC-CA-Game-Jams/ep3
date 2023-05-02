@@ -111,6 +111,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1106762591686411610}
   - component: {fileID: 1106762591686411611}
+  - component: {fileID: 2318206222529501632}
+  - component: {fileID: 7793262331544341748}
   m_Layer: 5
   m_Name: Clock
   m_TagString: Untagged
@@ -153,6 +155,70 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f267948229acf4fea8c1fa55470faf09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hourTickSound: {fileID: 8063992099039962184}
+  endOfDaySound: {fileID: 2346846349763278568}
+--- !u!114 &2318206222529501632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106762591686411609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1831585949
+      Data2: 1088844902
+      Data3: 467177127
+      Data4: -1024601757
+    Path: event:/UI/ui_hourtick
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &7793262331544341748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106762591686411609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -601520680
+      Data2: 1110633740
+      Data3: 923439753
+      Data4: 457711859
+    Path: event:/UI/ui_hourstrike
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1106762591773221803
 GameObject:
   m_ObjectHideFlags: 0
@@ -164,6 +230,7 @@ GameObject:
   - component: {fileID: 1106762591773221804}
   - component: {fileID: 1106762591773221806}
   - component: {fileID: 1106762591773221805}
+  - component: {fileID: 8063992099039962184}
   m_Layer: 5
   m_Name: ClockMinuteHand
   m_TagString: Untagged
@@ -229,6 +296,37 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8063992099039962184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106762591773221803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1831585949
+      Data2: 1088844902
+      Data3: 467177127
+      Data4: -1024601757
+    Path: event:/UI/ui_hourtick
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1106762591841496556
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,6 +457,7 @@ GameObject:
   - component: {fileID: 1106762591899166632}
   - component: {fileID: 1106762591899166634}
   - component: {fileID: 1106762591899166633}
+  - component: {fileID: 2346846349763278568}
   m_Layer: 5
   m_Name: ClockHourHand
   m_TagString: Untagged
@@ -424,6 +523,37 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2346846349763278568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106762591899166631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -601520680
+      Data2: 1110633740
+      Data3: 923439753
+      Data4: 457711859
+    Path: event:/UI/ui_hourstrike
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1106762592562073325
 GameObject:
   m_ObjectHideFlags: 0
