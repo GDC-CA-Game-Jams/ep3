@@ -7,8 +7,13 @@ using UnityEngine.SceneManagement;
 public class GameManager : IService
 {
     private TaskListHolder tasks;
-    
+
     private int day = 0;
+    public int Day
+    {
+        get { return day; }
+        set { day = value; }
+    }
 
     /// <summary>
     /// True if the game is paused, false if it is not

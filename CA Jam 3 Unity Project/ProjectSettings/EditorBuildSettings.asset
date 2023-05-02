@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: da4d2bcb62c2140a79bb9f328ee1d52e
   - enabled: 1
+    path: Assets/Scenes/Morning_Meeting.unity
+    guid: ac411dcfc0ba04c229ea535780958d5e
+  - enabled: 1
     path: Assets/Scenes/OfficeLayout_Ian.unity
     guid: c972fb9392719db4d968cf125916e7d0
   - enabled: 1
