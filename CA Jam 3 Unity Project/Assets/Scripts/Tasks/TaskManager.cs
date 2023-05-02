@@ -10,7 +10,8 @@ enum STUDIO_EVENT_EMITTERS : int
 {
     ITEM_GET,
     ITEM_PUT,
-    TASK_BASE_COMPLETE
+    TASK_BASE_COMPLETE,
+    TASK_GET
 }
 
 public class TaskManager : IService
@@ -66,6 +67,9 @@ public class TaskManager : IService
         
         if (task.isSticky)
         {
+            // Play new sticky task assigned sound
+            studioEventEmitters[(int)STUDIO_EVENT_EMITTERS.TASK_GET].Play();
+
             TaskUI.Instance.AddSticky(task);
             priorityTasks.Push(task);
         }
