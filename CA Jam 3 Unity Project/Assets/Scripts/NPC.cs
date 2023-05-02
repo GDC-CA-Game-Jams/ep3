@@ -13,8 +13,8 @@ public class NPC : MonoBehaviour
         {
             Debug.Log("player entered colision zone");
             PlayerMovement player = (PlayerMovement)other.gameObject.GetComponent("PlayerMovement");
-            player.MaxSpeedMod = -80;
-            player.MoveForceMod = -5000;
+            player.MaxSpeedMod = -10;
+            player.MoveForceMod = -500;
             speechBubble.SetActive(true);
         }
     }
