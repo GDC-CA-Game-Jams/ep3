@@ -6,6 +6,12 @@ using System.Linq;
 using Services;
 using UnityEngine;
 
+enum STUDIO_EVENT_EMITTERS : int
+{
+    ITEM_GET,
+    ITEM_PUT
+}
+
 public class TaskManager : IService
 {
 
@@ -16,7 +22,9 @@ public class TaskManager : IService
     private GameObject player;
 
     private int tasksCompleted;
-    
+
+    FMODUnity.StudioEventEmitter[] studioEventEmitters;
+
     public TaskManager()
     {
         player = GameObject.FindWithTag("Player");
@@ -42,6 +50,8 @@ public class TaskManager : IService
     {
         tasksCompleted = 0;
         player = GameObject.FindWithTag("Player");
+
+        studioEventEmitters = player.GetComponents<FMODUnity.StudioEventEmitter>();
     }
     
     private void OnNewTaskAssigned(TaskSO task) 
@@ -71,6 +81,9 @@ public class TaskManager : IService
         Inventory inv = player.GetComponent<Inventory>();
         if (inv.Items.ContainsKey(task.taskItem))
         {
+            // Play item dropoff sound
+            studioEventEmitters[(int)STUDIO_EVENT_EMITTERS.ITEM_PUT].Play();
+          
             if (priorityTasks.Any())
             {
                 if (priorityTasks.Peek().Equals(task))

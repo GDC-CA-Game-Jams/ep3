@@ -267,6 +267,8 @@ GameObject:
   - component: {fileID: 1523918309792848762}
   - component: {fileID: 2034408929358815993}
   - component: {fileID: 8273760634735747291}
+  - component: {fileID: 4391600120440721188}
+  - component: {fileID: 5034241774101195166}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -418,3 +420,65 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseKey: 27
   pauseScene: Pause Screen
+--- !u!114 &4391600120440721188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7943098415773013364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -366984114
+      Data2: 1157006933
+      Data3: 1171424401
+      Data4: -847999596
+    Path: event:/SFX/obj_shared_itemget
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &5034241774101195166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7943098415773013364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 234517824
+      Data2: 1204321838
+      Data3: 1607034765
+      Data4: 38314785
+    Path: event:/SFX/obj_shared_itemput
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
