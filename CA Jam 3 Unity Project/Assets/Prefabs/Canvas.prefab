@@ -340,6 +340,7 @@ GameObject:
   - component: {fileID: 1106762591841496559}
   - component: {fileID: 1106762591841496558}
   - component: {fileID: 1106762591841496557}
+  - component: {fileID: 2709663895176693128}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -443,9 +444,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76bb0e6303e1b3447b3f760946afee6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemPickupSound: {fileID: 2709663895176693128}
   Inventory: {fileID: 0}
   ContentBox: {fileID: 1106762591480138237}
   ItemIconPrefab: {fileID: 4928726851934025656, guid: 24fa6e61aef412e4b8f5a038b254902e, type: 3}
+--- !u!114 &2709663895176693128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106762591841496556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -366984114
+      Data2: 1157006933
+      Data3: 1171424401
+      Data4: -847999596
+    Path: event:/SFX/obj_shared_itemget
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1106762591899166631
 GameObject:
   m_ObjectHideFlags: 0

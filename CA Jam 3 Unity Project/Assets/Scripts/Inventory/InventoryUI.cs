@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 public class InventoryUI : MonoBehaviour
 {
+    [SerializeField]
+    private FMODUnity.StudioEventEmitter itemPickupSound;
+
     [SerializeField]
     private Inventory Inventory = null;
 
@@ -42,6 +46,9 @@ public class InventoryUI : MonoBehaviour
 
                 //ensure the the itemicon is reset
                 ItemIcons[itemData].gameObject.transform.parent = ContentBox.transform;
+
+                //play item pickup sound
+                if (!itemPickupSound.IsPlaying()) itemPickupSound.Play();
             }
             else {
                 //spawn a new icon
@@ -50,6 +57,9 @@ public class InventoryUI : MonoBehaviour
                 itemIcon.Init(this, itemData, itemCount);
 
                 ItemIcons.Add(item.Key, itemIcon);
+
+                //play item pickup sound
+                if (!itemPickupSound.IsPlaying()) itemPickupSound.Play();
             }
         }
 
