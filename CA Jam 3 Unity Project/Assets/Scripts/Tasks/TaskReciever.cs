@@ -18,25 +18,35 @@ public class TaskReciever : MonoBehaviour
     //this is FALSE for sticky tasks like checking email. TRUE for drop off tasks like dropping off a package.
     [SerializeField] private GameObject greenArrow;
 
+    private TaskManager taskManager;
+
+    void Start()
+    {
+        taskManager = ServiceLocator.Instance.Get<TaskManager>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            if ((canCompleteTaskLimitedNumTimes && timesRemainingUpdateTask >= 1) || canCompleteTaskLimitedNumTimes == false)
+            if (taskManager.priorityTasks.Count == 0 || (taskManager.priorityTasks.Count > 0 && task.isSticky))
             {
-                //attempt to update task
-                bool completed = ServiceLocator.Instance.Get<TaskManager>().UpdateTask(task);
-                //if sucessful (player had the item in inventory and was able to complete the task)
-                if (completed )
+                if ((canCompleteTaskLimitedNumTimes && timesRemainingUpdateTask >= 1) || canCompleteTaskLimitedNumTimes == false)
                 {
-					if(canCompleteTaskLimitedNumTimes)
-					{
-						timesRemainingUpdateTask -= 1; //decrease the amount of times the player can complete the task at this location again
-					}
-					greenArrow.SetActive(false); //remove the green arrow
-				}
+                    //attempt to update task
+                    bool completed = taskManager.UpdateTask(task);
+                    //if sucessful (player had the item in inventory and was able to complete the task)
+                    if (completed)
+                    {
+                        if (canCompleteTaskLimitedNumTimes)
+                        {
+                            timesRemainingUpdateTask -= 1; //decrease the amount of times the player can complete the task at this location again
+                        }
+
+                        greenArrow.SetActive(false); //remove the green arrow
+                    }
+                }
             }
-            
         }
     }
 }

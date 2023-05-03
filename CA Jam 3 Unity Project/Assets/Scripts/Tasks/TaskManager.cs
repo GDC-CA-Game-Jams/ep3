@@ -11,7 +11,8 @@ enum STUDIO_EVENT_EMITTERS : int
     ITEM_GET,
     ITEM_PUT,
     TASK_BASE_COMPLETE,
-    TASK_GET
+    TASK_GET,
+    TASK_STICKY_COMPLETE
 }
 
 public class TaskManager : IService
@@ -89,12 +90,6 @@ public class TaskManager : IService
         Inventory inv = player.GetComponent<Inventory>();
         if (task.noItemRequired || inv.Items.ContainsKey(task.taskItem)) //test if player does not need item OR player has the required item
         {
-            if (inv.Items.ContainsKey(task.taskItem))
-            {
-                // Play item dropoff sound
-                studioEventEmitters[(int)STUDIO_EVENT_EMITTERS.ITEM_PUT].Play();
-            }
-          
             if (priorityTasks.Any())
             {
                 if (priorityTasks.Peek().Equals(task))
@@ -108,6 +103,12 @@ public class TaskManager : IService
             {
                 if (baseTasks.Contains(task))
                 {
+                    if (inv.Items.ContainsKey(task.taskItem))
+                    {
+                        // Play item dropoff sound
+                        studioEventEmitters[(int)STUDIO_EVENT_EMITTERS.ITEM_PUT].Play();
+                    }
+
                     task.numCompleted++;
                     TaskUI.Instance.UpdateTask(task);
                     inv.RemoveItem(task.taskItem);
@@ -127,6 +128,9 @@ public class TaskManager : IService
     {
         if (priorityTasks.Any() && priorityTasks.Peek() == task)
         {
+            // Play sticky task completion sound
+            studioEventEmitters[(int)STUDIO_EVENT_EMITTERS.TASK_STICKY_COMPLETE].Play();
+
             TaskUI.Instance.RemoveSticky();
             priorityTasks.Pop();
             return;
