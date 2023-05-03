@@ -327,6 +327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   task: {fileID: 11400000, guid: 3383ba0a2fda68e4a8affa5b6a6f5f97, type: 2}
+  timesRemainingUpdateTask: 1
 --- !u!1 &7755028069252709373
 GameObject:
   m_ObjectHideFlags: 0
