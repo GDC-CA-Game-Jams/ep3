@@ -34,6 +34,9 @@ public class UI_Clock : MonoBehaviour
 
     private void Start()
     {
+        // Reset the FMOD ambience parameter to 0
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("param_ambience", 0f);
+
         // Call the onHourElapsed() function once for each in-game hour
         InvokeRepeating("onHourElapsed", 60f, 60f);
     }
@@ -53,9 +56,13 @@ public class UI_Clock : MonoBehaviour
     {
         numHoursElapsed++;
 
-        print(numHoursElapsed + "hours elapsed.");
+        // Update the FMOD ambience parameter
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("param_ambience", (float)numHoursElapsed/8);
 
-        if(numHoursElapsed == 8)
+        print(numHoursElapsed + "hours elapsed. FMOD ambience parameter value: " + (float)numHoursElapsed/8);
+
+
+        if (numHoursElapsed == 8)
         {
             print("End of workday!");
 
