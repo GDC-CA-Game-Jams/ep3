@@ -37,9 +37,11 @@ public class TaskManager : IService
         OnNewTaskAssigned(task);
     }
 
-    public void UpdateTask(TaskSO task)
+    public bool UpdateTask(TaskSO task)
     {
-        OnTaskProgress(task);
+        //returns true if player could complete the task (had the item in their inventory), false otherwise
+        bool completed = OnTaskProgress(task);
+        return completed;
     }
 
     public void CompleteTask(TaskSO task)
@@ -81,7 +83,8 @@ public class TaskManager : IService
         }
     }
 
-    private void OnTaskProgress(TaskSO task)
+    private bool OnTaskProgress(TaskSO task)
+        //returns true if player could complete the task (had the item in their inventory), false otherwise
     {
         Inventory inv = player.GetComponent<Inventory>();
         if (inv.Items.ContainsKey(task.taskItem))
@@ -112,7 +115,9 @@ public class TaskManager : IService
             {
                 CompleteTask(task);
             }
+            return true; //player made progress on task
         }
+        return false; //player did not have the item in inventory and was unable to make progress on task
     }
 
     private void OnTaskComplete(TaskSO task)

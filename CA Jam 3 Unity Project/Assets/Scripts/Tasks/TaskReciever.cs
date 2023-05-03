@@ -16,8 +16,14 @@ public class TaskReciever : MonoBehaviour
     {
         if (other.CompareTag("Player") && timesRemainingUpdateTask >= 1)
         {
-            timesRemainingUpdateTask -= 1; //decrease the amount of times the player can complete the task at this location again
-            ServiceLocator.Instance.Get<TaskManager>().UpdateTask(task);
+            //attempt to update task
+            bool completed = ServiceLocator.Instance.Get<TaskManager>().UpdateTask(task);
+            //if sucessful (player had the item in inventory and was able to complete the task)
+            if (completed)
+            {
+                timesRemainingUpdateTask -= 1; //decrease the amount of times the player can complete the task at this location again
+            }
+            
         }
     }
 }
