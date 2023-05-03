@@ -39,7 +39,7 @@ public class TaskManager : IService
 
     public bool UpdateTask(TaskSO task)
     {
-        //returns true if player could complete the task (had the item in their inventory), false otherwise
+        //returns true if player could complete the task, false otherwise
         bool completed = OnTaskProgress(task);
         return completed;
     }
@@ -84,10 +84,10 @@ public class TaskManager : IService
     }
 
     private bool OnTaskProgress(TaskSO task)
-        //returns true if player could complete the task (had the item in their inventory), false otherwise
+        //returns true if player could complete the task, false otherwise
     {
         Inventory inv = player.GetComponent<Inventory>();
-        if (inv.Items.ContainsKey(task.taskItem))
+        if (task.noItemRequired || inv.Items.ContainsKey(task.taskItem)) //test if player does not need item OR player has the required item
         {
             // Play item dropoff sound
             studioEventEmitters[(int)STUDIO_EVENT_EMITTERS.ITEM_PUT].Play();
@@ -117,7 +117,7 @@ public class TaskManager : IService
             }
             return true; //player made progress on task
         }
-        return false; //player did not have the item in inventory and was unable to make progress on task
+        return false; //player was unable to make progress on task
     }
 
     private void OnTaskComplete(TaskSO task)
