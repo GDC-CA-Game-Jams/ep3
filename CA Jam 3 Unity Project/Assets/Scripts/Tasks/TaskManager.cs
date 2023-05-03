@@ -89,8 +89,11 @@ public class TaskManager : IService
         Inventory inv = player.GetComponent<Inventory>();
         if (task.noItemRequired || inv.Items.ContainsKey(task.taskItem)) //test if player does not need item OR player has the required item
         {
-            // Play item dropoff sound
-            studioEventEmitters[(int)STUDIO_EVENT_EMITTERS.ITEM_PUT].Play();
+            if (inv.Items.ContainsKey(task.taskItem))
+            {
+                // Play item dropoff sound
+                studioEventEmitters[(int)STUDIO_EVENT_EMITTERS.ITEM_PUT].Play();
+            }
           
             if (priorityTasks.Any())
             {
