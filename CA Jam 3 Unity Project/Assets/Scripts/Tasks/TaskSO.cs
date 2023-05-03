@@ -9,6 +9,9 @@ public class TaskSO : ScriptableObject
 
     public bool isSticky;
 
+    public bool noItemRequired; //player does not need an item in their inventory to complete the task- they only need to go to task location
+    //this is generally true for sticky tasks
+
     public string taskName;
 
     public int numRequired;
