@@ -23,6 +23,8 @@ public class TaskReciever : MonoBehaviour
     void Start()
     {
         taskManager = ServiceLocator.Instance.Get<TaskManager>();
+
+        greenArrow.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -48,5 +50,21 @@ public class TaskReciever : MonoBehaviour
                 }
             }
         }
+    }
+
+    private void OnEnable()
+    {
+        task.taskItem.onPickup += EnableGreenArrow;
+    }
+
+    private void OnDisable()
+    {
+        task.taskItem.onPickup -= EnableGreenArrow;
+    }
+
+    private void EnableGreenArrow()
+    {
+        if(timesRemainingUpdateTask > 0)
+            greenArrow.SetActive(true);
     }
 }

@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: da4d2bcb62c2140a79bb9f328ee1d52e
   - enabled: 1
+    path: Assets/Scenes/ElevatorSequence.unity
+    guid: 01fa30c8e11a04684baea95ab2712dcc
+  - enabled: 1
     path: Assets/Scenes/Morning_Meeting.unity
     guid: ac411dcfc0ba04c229ea535780958d5e
   - enabled: 1

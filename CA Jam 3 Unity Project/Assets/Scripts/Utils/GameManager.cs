@@ -47,6 +47,8 @@ public class GameManager : IService
         {
             ServiceLocator.Instance.Get<TaskManager>().AssignTask(temp[i]);
         }
+
+        SceneManager.LoadScene("ElevatorSequence", LoadSceneMode.Additive);
     }
 
     public void EndDay()

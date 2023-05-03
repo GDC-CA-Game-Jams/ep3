@@ -17,6 +17,8 @@ public class Inventory : MonoBehaviour
         }
         else {
             Items.Add(itemData, 1);
+
+            itemData.onPickup?.Invoke();
         }
 
         Updated.Invoke();

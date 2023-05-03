@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using Services;
+using UnityEngine.SceneManagement;
 
 public class MorningMeeting : MonoBehaviour
 {
@@ -38,5 +39,10 @@ public class MorningMeeting : MonoBehaviour
     private void OnEnable()
     {
 
+    }
+
+    public void UnloadSelf()
+    {
+        SceneManager.UnloadSceneAsync("Morning_Meeting");
     }
 }

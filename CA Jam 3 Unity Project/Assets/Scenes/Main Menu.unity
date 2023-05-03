@@ -742,7 +742,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Morning_Meeting
+      value: OfficeLayout_Ian
       objectReference: {fileID: 0}
     - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
