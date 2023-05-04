@@ -93,7 +93,7 @@ public class PlayerMovement : MonoBehaviour
         //moveVec.x = strafeMove * (moveForce + moveForceMod) * Time.deltaTime;
         moveVec.x += inlineMove * (moveForce + moveForceMod) * Time.deltaTime;
         moveVec.z += -strafeMove * (moveForce + moveForceMod) * Time.deltaTime;
-        rb.velocity = moveVec;
+        rb.velocity = new Vector3(moveVec.x, rb.velocity.y, moveVec.z);
         
         combinedRayLength = jumpRayDistance + transform.localScale.y;
         

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Services;
@@ -23,6 +24,8 @@ public class GameManager : IService
     private GameObject player;
 
     private Vector3 startPos;
+
+    public Action<int> onDayStart;
     
     public GameManager()
     {
@@ -48,6 +51,7 @@ public class GameManager : IService
             ServiceLocator.Instance.Get<TaskManager>().AssignTask(temp[i]);
         }
 
+        onDayStart?.Invoke(day);
         SceneManager.LoadScene("ElevatorSequence", LoadSceneMode.Additive);
     }
 
