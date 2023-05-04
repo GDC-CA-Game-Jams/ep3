@@ -8,6 +8,7 @@ public class ItemData : ScriptableObject
 {
     public string ID { get { return id; } }
     public Sprite Icon { get { return icon; } }
+    public string soundEffect { get { return fmodEvent; } }
     public Action onPickup;
 
     [SerializeField]
@@ -15,4 +16,7 @@ public class ItemData : ScriptableObject
 
     [SerializeField]
     private Sprite icon;
+
+    [SerializeField]
+    private string fmodEvent;
 }

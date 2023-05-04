@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: WateringCan
   icon: {fileID: 21300000, guid: 8f3ea9efbc4e1d044be7fdb2f1df8682, type: 3}
+  fmodEvent: tsk_waterplant

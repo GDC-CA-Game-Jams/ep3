@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: Poster
   icon: {fileID: 21300000, guid: b118352c2bb431849ae4e1528dc79c72, type: 3}
+  fmodEvent: tsk_poster

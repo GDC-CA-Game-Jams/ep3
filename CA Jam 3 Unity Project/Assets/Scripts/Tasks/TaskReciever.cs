@@ -20,11 +20,19 @@ public class TaskReciever : MonoBehaviour
 
     private TaskManager taskManager;
 
+    FMOD.Studio.EventInstance soundEffectFMODEvent;
+
     void Start()
     {
         taskManager = ServiceLocator.Instance.Get<TaskManager>();
 
         greenArrow.SetActive(false);
+
+        if (task.taskItem.soundEffect.Length > 0)
+        {
+            Debug.Log("task.taskItem.soundEffect");
+            soundEffectFMODEvent = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/" + task.taskItem.soundEffect);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -46,6 +54,8 @@ public class TaskReciever : MonoBehaviour
                         }
 
                         greenArrow.SetActive(false); //remove the green arrow
+
+                        soundEffectFMODEvent.start();
                     }
                 }
             }
