@@ -129,7 +129,7 @@ MonoBehaviour:
   task: {fileID: 11400000, guid: d36a7476d1c9e1d448f94391ddabcb5f, type: 2}
   timesRemainingUpdateTask: 1
   canCompleteTaskLimitedNumTimes: 1
-  greenArrow: {fileID: 0}
+  greenArrow: {fileID: 4570985843614780607}
 --- !u!114 &4570985844848788472
 MonoBehaviour:
   m_ObjectHideFlags: 0

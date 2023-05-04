@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: CoffeeCup
   icon: {fileID: 21300000, guid: 783af08643bcc44f1a663d1a49044081, type: 3}
-  fmodEvent: 
+  fmodEvent: tsk_coffee
