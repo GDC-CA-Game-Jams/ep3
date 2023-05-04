@@ -44,7 +44,7 @@ public class Inventory : MonoBehaviour
         return false;
     }
 
-    public void CheckForItem(ItemData itemData) {
-
+    public bool CheckForItem(ItemData itemData) {
+        return Items.ContainsKey(itemData);
     }
 }
