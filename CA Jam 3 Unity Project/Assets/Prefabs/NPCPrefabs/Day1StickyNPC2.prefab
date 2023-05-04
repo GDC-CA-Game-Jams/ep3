@@ -340,8 +340,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29cd049429d19c64caaec9aa6002d3e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sticky: {fileID: 11400000, guid: 3383ba0a2fda68e4a8affa5b6a6f5f97, type: 2}
+  sticky: {fileID: 11400000, guid: ad96ed94cc175b747bd89d1628d2e87e, type: 2}
   given: 0
+  speechBubble: {fileID: 7154728731519478406}
 --- !u!1 &6218594041829565268
 GameObject:
   m_ObjectHideFlags: 0
@@ -488,8 +489,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d75aecca128ac94494654065ccf6e70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueFileName: 
-  dialogTime: 5
+  dialogueFileName: CheckEmail2.txt
+  dialogTime: 20
   text: {fileID: 8304930870526931896}
-  bubble: {fileID: 0}
-  asset: {fileID: 0}
+  bubble: {fileID: 2359418023260721487}
+  asset: {fileID: 4900000, guid: 6e73c5fa4e7ae7441b6d3fd540c28982, type: 3}
