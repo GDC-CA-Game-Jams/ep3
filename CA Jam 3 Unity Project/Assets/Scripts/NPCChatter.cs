@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NPC : MonoBehaviour
+public class NPCChatter : MonoBehaviour
+    //manage the trigger collider for slowing/stopping the player and setting speech bubble active
 {
     [Tooltip("The speech bubble that appears when the NPC is talking")]
     [SerializeField] private GameObject speechBubble;
