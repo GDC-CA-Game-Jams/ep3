@@ -15367,6 +15367,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6323899748222442231, guid: ce75378bedfdd2546acb5204d207b500, type: 3}
   m_PrefabInstance: {fileID: 941366312}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &941910150 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5076123350103115168, guid: 8b71a92285817454b985f7a3c17536d5, type: 3}
+  m_PrefabInstance: {fileID: 1836362952}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &941910156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941910150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2902c6d0487a2049b0c450c121f92dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speechBubble: {fileID: 2100176900}
 --- !u!1 &942079829
 GameObject:
   m_ObjectHideFlags: 0
@@ -18845,11 +18863,19 @@ PrefabInstance:
     - target: {fileID: 896723006493856584, guid: 1df8cdb5290ae6c42a7c1bbebe1a8123, type: 3}
       propertyPath: asset
       value: 
-      objectReference: {fileID: 4900000, guid: 64f1086d7eb148e0b7cf581b9ce2a7a0, type: 3}
+      objectReference: {fileID: 4900000, guid: 6e73c5fa4e7ae7441b6d3fd540c28982, type: 3}
     - target: {fileID: 896723006493856584, guid: 1df8cdb5290ae6c42a7c1bbebe1a8123, type: 3}
       propertyPath: bubble
       value: 
       objectReference: {fileID: 1844253337}
+    - target: {fileID: 896723006493856584, guid: 1df8cdb5290ae6c42a7c1bbebe1a8123, type: 3}
+      propertyPath: dialogTime
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 896723006493856584, guid: 1df8cdb5290ae6c42a7c1bbebe1a8123, type: 3}
+      propertyPath: dialogueFileName
+      value: CheckEmail2.txt
+      objectReference: {fileID: 0}
     - target: {fileID: 4856721071864345635, guid: 1df8cdb5290ae6c42a7c1bbebe1a8123, type: 3}
       propertyPath: sticky
       value: 
@@ -28108,6 +28134,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19b12721b9e407148ae6ffae0f0a3064, type: 3}
+--- !u!1 &1716850559 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5076123350103115168, guid: 1df8cdb5290ae6c42a7c1bbebe1a8123, type: 3}
+  m_PrefabInstance: {fileID: 1145276840}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1716850565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716850559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2902c6d0487a2049b0c450c121f92dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speechBubble: {fileID: 1932380789}
 --- !u!1001 &1720350861
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30933,11 +30977,19 @@ PrefabInstance:
     - target: {fileID: 896723006493856584, guid: 8b71a92285817454b985f7a3c17536d5, type: 3}
       propertyPath: asset
       value: 
-      objectReference: {fileID: 4900000, guid: 64f1086d7eb148e0b7cf581b9ce2a7a0, type: 3}
+      objectReference: {fileID: 4900000, guid: 099810dab521e6643873e005952d76c2, type: 3}
     - target: {fileID: 896723006493856584, guid: 8b71a92285817454b985f7a3c17536d5, type: 3}
       propertyPath: bubble
       value: 
       objectReference: {fileID: 1714659670}
+    - target: {fileID: 896723006493856584, guid: 8b71a92285817454b985f7a3c17536d5, type: 3}
+      propertyPath: dialogTime
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 896723006493856584, guid: 8b71a92285817454b985f7a3c17536d5, type: 3}
+      propertyPath: dialogueFileName
+      value: CheckEmail.txt
+      objectReference: {fileID: 0}
     - target: {fileID: 4856721071864345635, guid: 8b71a92285817454b985f7a3c17536d5, type: 3}
       propertyPath: sticky
       value: 
@@ -32572,6 +32624,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22ddaa4985d8b2743b6e3942c7564b33, type: 3}
+--- !u!1 &1932380789 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7154728731519478406, guid: 1df8cdb5290ae6c42a7c1bbebe1a8123, type: 3}
+  m_PrefabInstance: {fileID: 1145276840}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1933805326
 GameObject:
   m_ObjectHideFlags: 0
@@ -35139,6 +35196,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab66f081112d62f4f9077e97ab9b28ee, type: 3}
+--- !u!1 &2100176900 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7154728731519478406, guid: 8b71a92285817454b985f7a3c17536d5, type: 3}
+  m_PrefabInstance: {fileID: 1836362952}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2104634728 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4789612002532788320, guid: 1e3a722ab84c59a439821dd22d5647dd, type: 3}
