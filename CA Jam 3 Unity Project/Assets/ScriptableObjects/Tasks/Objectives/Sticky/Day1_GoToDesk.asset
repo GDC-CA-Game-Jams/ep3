@@ -15,6 +15,7 @@ MonoBehaviour:
   taskId: {fileID: 0}
   isSticky: 1
   noItemRequired: 1
+  noStickyAudio: 1
   taskName: Go to your desk
   numRequired: 1
   numCompleted: 0
