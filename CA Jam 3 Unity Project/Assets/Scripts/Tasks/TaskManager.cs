@@ -79,6 +79,9 @@ public class TaskManager : IService
 
             TaskUI.Instance.AddSticky(task);
             priorityTasks.Push(task);
+
+            // Update the FMOD workload parameter (up to 3 max)
+            FMODUnity.RuntimeManager.StudioSystem.setParameterByName("param_workload", (Math.Min(priorityTasks.Count, 3)));
         }
         else
         {
@@ -137,6 +140,10 @@ public class TaskManager : IService
 
             TaskUI.Instance.RemoveSticky();
             priorityTasks.Pop();
+
+            // Update the FMOD workload parameter (up to 3 max)
+            FMODUnity.RuntimeManager.StudioSystem.setParameterByName("param_workload", (Math.Min(priorityTasks.Count, 3)));
+
             return;
         }
 
