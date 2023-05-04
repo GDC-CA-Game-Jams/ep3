@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 [CreateAssetMenu(fileName = "Task", menuName = "Tasks/Create Task", order = 1)]
 public class TaskSO : ScriptableObject
@@ -13,8 +14,11 @@ public class TaskSO : ScriptableObject
     //this is generally true for sticky tasks
 
     public bool noStickyAudio; //set to true to NOT play the sticky audio when a sticky task is assigned
-    //has no effect if task is not a sticky task
-    //used to turn off the audio for the initial "go to your desk" task
+                               //has no effect if task is not a sticky task
+                               //used to turn off the audio for the initial "go to your desk" task
+
+    public Action onTaskAssigned; //used for sticky tasks
+    //so that a green arrow can be enabled when the task is assigned
 
     public string taskName;
 

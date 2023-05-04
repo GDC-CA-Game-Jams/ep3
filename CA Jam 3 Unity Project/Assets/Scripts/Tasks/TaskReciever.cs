@@ -55,11 +55,19 @@ public class TaskReciever : MonoBehaviour
     private void OnEnable()
     {
         task.taskItem.onPickup += EnableGreenArrow;
+        if(task.isSticky)
+        {
+            task.onTaskAssigned += EnableGreenArrow;
+        }
     }
 
     private void OnDisable()
     {
         task.taskItem.onPickup -= EnableGreenArrow;
+        if (task.isSticky)
+        {
+            task.onTaskAssigned -= EnableGreenArrow;
+        }
     }
 
     private void EnableGreenArrow()

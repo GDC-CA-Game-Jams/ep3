@@ -70,6 +70,7 @@ public class TaskManager : IService
         
         if (task.isSticky)
         {
+            task.onTaskAssigned.Invoke(); //invoke the ontask assigned event -> taskReciever listens to this and enables green arrow
             if (!task.noStickyAudio)//if sticky audio is not disabled
             {
                 // Play new sticky task assigned sound
