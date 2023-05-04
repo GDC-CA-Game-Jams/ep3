@@ -225,6 +225,7 @@ GameObject:
   - component: {fileID: 1761386860}
   - component: {fileID: 1484250174}
   - component: {fileID: 4856721071864345635}
+  - component: {fileID: 7592161060906071201}
   m_Layer: 0
   m_Name: Day1StickyNPC2
   m_TagString: Untagged
@@ -343,6 +344,37 @@ MonoBehaviour:
   sticky: {fileID: 11400000, guid: ad96ed94cc175b747bd89d1628d2e87e, type: 2}
   given: 0
   speechBubble: {fileID: 7154728731519478406}
+--- !u!114 &7592161060906071201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5076123350103115168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  EventReference:
+    Guid:
+      Data1: 2017185349
+      Data2: 1159957167
+      Data3: -1581153347
+      Data4: -979796056
+    Path: event:/Dialog/dx_b_NPC_spotted
+  Event: 
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &6218594041829565268
 GameObject:
   m_ObjectHideFlags: 0
