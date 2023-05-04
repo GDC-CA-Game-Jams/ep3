@@ -70,8 +70,12 @@ public class TaskManager : IService
         
         if (task.isSticky)
         {
-            // Play new sticky task assigned sound
-            studioEventEmitters[(int)STUDIO_EVENT_EMITTERS.TASK_GET].Play();
+            task.onTaskAssigned.Invoke(); //invoke the ontask assigned event -> taskReciever listens to this and enables green arrow
+            if (!task.noStickyAudio)//if sticky audio is not disabled
+            {
+                // Play new sticky task assigned sound
+                studioEventEmitters[(int)STUDIO_EVENT_EMITTERS.TASK_GET].Play();
+            }
 
             TaskUI.Instance.AddSticky(task);
             priorityTasks.Push(task);
