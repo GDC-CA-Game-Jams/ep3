@@ -619,8 +619,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d75aecca128ac94494654065ccf6e70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueFileName: chatterboxlines_NPC1_Day1.txt
+  dialogueFileName: chatterboxlines_NPC1_Day2.txt
   dialogTime: 5
   text: {fileID: 8304930870526931896}
   bubble: {fileID: 2359418023260721487}
-  asset: {fileID: 0}
+  asset: {fileID: 4900000, guid: 7dcef50a605fd2e4eb93b7a7f617075b, type: 3}

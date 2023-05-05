@@ -229,7 +229,7 @@ GameObject:
   - component: {fileID: 7188132902840948905}
   - component: {fileID: 7959850856572986312}
   m_Layer: 0
-  m_Name: Day2SlowNPC2
+  m_Name: Day3SlowNPC2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -289,7 +289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6095fdb543e96f64cb0dfc4be9c2b12b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PathName: Day2SlowNPC2Path
+  PathName: Day3SlowNPC2Path
   pathGO: {fileID: 0}
   speed: 2
 --- !u!212 &1484250174
@@ -472,7 +472,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  dayToFire: 1
+  dayToFire: 2
 --- !u!1 &6218594041829565268
 GameObject:
   m_ObjectHideFlags: 0

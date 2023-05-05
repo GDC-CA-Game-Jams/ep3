@@ -227,9 +227,9 @@ GameObject:
   - component: {fileID: 1484250174}
   - component: {fileID: 3205894019633351381}
   - component: {fileID: 7188132902840948905}
-  - component: {fileID: 7959850856572986312}
+  - component: {fileID: 6468773283731047985}
   m_Layer: 0
-  m_Name: Day2SlowNPC2
+  m_Name: Day3SlowNPC1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -289,7 +289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6095fdb543e96f64cb0dfc4be9c2b12b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PathName: Day2SlowNPC2Path
+  PathName: Day3SlowNPC1Path
   pathGO: {fileID: 0}
   speed: 2
 --- !u!212 &1484250174
@@ -333,7 +333,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: eb980126069e64049b398e6b3c5b28a6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b3e45a5a5d41d4419529cc495cc55b3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -406,7 +406,7 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
---- !u!114 &7959850856572986312
+--- !u!114 &6468773283731047985
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -472,7 +472,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  dayToFire: 1
+  dayToFire: 2
 --- !u!1 &6218594041829565268
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,8 +619,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d75aecca128ac94494654065ccf6e70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueFileName: chatterboxlines_NPC2_Day2.txt
+  dialogueFileName: chatterboxlines_NPC1_Day2.txt
   dialogTime: 5
   text: {fileID: 8304930870526931896}
   bubble: {fileID: 2359418023260721487}
-  asset: {fileID: 4900000, guid: 2c93c1fd18527b848afabe5223cb48f9, type: 3}
+  asset: {fileID: 4900000, guid: 7dcef50a605fd2e4eb93b7a7f617075b, type: 3}
