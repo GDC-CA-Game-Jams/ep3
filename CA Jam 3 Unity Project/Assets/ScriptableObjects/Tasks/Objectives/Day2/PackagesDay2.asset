@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 648a30120fbb71f4ebb41299f32a96f1, type: 3}
-  m_Name: Coffee
+  m_Name: PackagesDay2
   m_EditorClassIdentifier: 
   taskId: {fileID: 0}
   isSticky: 0
   noItemRequired: 0
   noStickyAudio: 0
-  taskName: Deliver Coffee
-  numRequired: 4
+  taskName: Deliver Packages
+  numRequired: 5
   numCompleted: 0
-  taskItem: {fileID: 11400000, guid: 636c1e3820da83f4bad90acb435675e5, type: 2}
+  taskItem: {fileID: 11400000, guid: ffdff6bd102d42f40b46fbf541157880, type: 2}

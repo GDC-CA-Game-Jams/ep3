@@ -12,4 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7a69cda6b66274caa741e41756cc96, type: 3}
   m_Name: Day3
   m_EditorClassIdentifier: 
-  tasks: []
+  tasks:
+  - {fileID: 11400000, guid: 04dbad22c2024224eafb6737eb12eeae, type: 2}
+  - {fileID: 11400000, guid: c38d4d1be7a2e9d47977b62a1d2a42e2, type: 2}
+  - {fileID: 11400000, guid: 2162574f1fca06248ac6d8f7caa6a099, type: 2}
+  - {fileID: 11400000, guid: c6949bf4838206542bda6bd34f5b6869, type: 2}

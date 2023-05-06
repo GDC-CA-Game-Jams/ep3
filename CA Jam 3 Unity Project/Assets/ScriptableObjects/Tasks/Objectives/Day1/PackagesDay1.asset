@@ -9,7 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa7a69cda6b66274caa741e41756cc96, type: 3}
-  m_Name: Day4
+  m_Script: {fileID: 11500000, guid: 648a30120fbb71f4ebb41299f32a96f1, type: 3}
+  m_Name: PackagesDay1
   m_EditorClassIdentifier: 
-  tasks: []
+  taskId: {fileID: 0}
+  isSticky: 0
+  taskName: Deliver Packages
+  numRequired: 4
+  numCompleted: 0
+  taskItem: {fileID: 11400000, guid: ffdff6bd102d42f40b46fbf541157880, type: 2}
