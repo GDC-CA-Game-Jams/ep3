@@ -12344,7 +12344,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 39963f07ef4cdd14e85f704d170deebd, type: 3}
       propertyPath: m_Name
-      value: Cubicle04 (1)
+      value: Cubicle04 StickyDoSomoneElsesJob
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39963f07ef4cdd14e85f704d170deebd, type: 3}
@@ -21700,6 +21700,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 896723006493856584, guid: 1df8cdb5290ae6c42a7c1bbebe1a8123, type: 3}
+      propertyPath: asset
+      value: 
+      objectReference: {fileID: 4900000, guid: 8c4b4ce74729bc04882fec6c36aa0e3a, type: 3}
+    - target: {fileID: 896723006493856584, guid: 1df8cdb5290ae6c42a7c1bbebe1a8123, type: 3}
+      propertyPath: dialogueFileName
+      value: DoSomeoneElsesJob2.txt
+      objectReference: {fileID: 0}
+    - target: {fileID: 4856721071864345635, guid: 1df8cdb5290ae6c42a7c1bbebe1a8123, type: 3}
+      propertyPath: sticky
+      value: 
+      objectReference: {fileID: 11400000, guid: 7e586c7159198824693ecbb54d0247b0, type: 2}
     - target: {fileID: 5076123350103115168, guid: 1df8cdb5290ae6c42a7c1bbebe1a8123, type: 3}
       propertyPath: m_Name
       value: Day1StickyNPC2
@@ -31734,7 +31746,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   task: {fileID: 11400000, guid: 7e586c7159198824693ecbb54d0247b0, type: 2}
-  timesRemainingUpdateTask: 1
+  timesRemainingUpdateTask: 1000
   canCompleteTaskLimitedNumTimes: 0
   greenArrow: {fileID: 2106537830}
 --- !u!135 &1711974647
