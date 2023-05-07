@@ -52,7 +52,7 @@ public class GameManager : IService
         }
 
         onDayStart?.Invoke(day);
-        SceneManager.LoadScene("ElevatorSequence", LoadSceneMode.Additive);
+        SceneManager.LoadScene("Morning_Meeting", LoadSceneMode.Additive);
     }
 
     public void EndDay()
