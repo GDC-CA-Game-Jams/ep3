@@ -2337,7 +2337,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 582467778722994258, guid: b3fa31019cecc97439caa4b27e61403d, type: 3}
       propertyPath: m_Name
-      value: coffee_cup (7)
+      value: coffee_cupDay2 (7)
       objectReference: {fileID: 0}
     - target: {fileID: 8981871046561606329, guid: b3fa31019cecc97439caa4b27e61403d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3122,7 +3122,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 582467778722994258, guid: b3fa31019cecc97439caa4b27e61403d, type: 3}
       propertyPath: m_Name
-      value: coffee_cup (5)
+      value: coffee_cupDay2 (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3fa31019cecc97439caa4b27e61403d, type: 3}
@@ -14856,7 +14856,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3723930131887046307, guid: f2686ac434e03b84686c74bb88149465, type: 3}
       propertyPath: m_Name
-      value: CoffeeDropOff
+      value: CoffeeDropOffDay2
       objectReference: {fileID: 0}
     - target: {fileID: 4099927218056094745, guid: f2686ac434e03b84686c74bb88149465, type: 3}
       propertyPath: m_RootOrder
@@ -16540,7 +16540,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 582467778722994258, guid: b3fa31019cecc97439caa4b27e61403d, type: 3}
       propertyPath: m_Name
-      value: coffee_cup (6)
+      value: coffee_cupDay2 (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3fa31019cecc97439caa4b27e61403d, type: 3}
@@ -17497,7 +17497,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3723930131887046307, guid: f2686ac434e03b84686c74bb88149465, type: 3}
       propertyPath: m_Name
-      value: CoffeeDropOff (2)
+      value: CoffeeDropOffDay2 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4099927218056094745, guid: f2686ac434e03b84686c74bb88149465, type: 3}
       propertyPath: m_RootOrder
@@ -23657,7 +23657,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 582467778722994258, guid: b3fa31019cecc97439caa4b27e61403d, type: 3}
       propertyPath: m_Name
-      value: coffee_cup (4)
+      value: coffee_cupDay2 (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3fa31019cecc97439caa4b27e61403d, type: 3}
@@ -31427,7 +31427,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3723930131887046307, guid: f2686ac434e03b84686c74bb88149465, type: 3}
       propertyPath: m_Name
-      value: CoffeeDropOff (3)
+      value: CoffeeDropOffDay2 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 4099927218056094745, guid: f2686ac434e03b84686c74bb88149465, type: 3}
       propertyPath: m_RootOrder
@@ -33897,7 +33897,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3723930131887046307, guid: f2686ac434e03b84686c74bb88149465, type: 3}
       propertyPath: m_Name
-      value: CoffeeDropOff (1)
+      value: CoffeeDropOffDay2 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 4099927218056094745, guid: f2686ac434e03b84686c74bb88149465, type: 3}
       propertyPath: m_RootOrder
