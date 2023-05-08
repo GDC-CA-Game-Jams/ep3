@@ -303,6 +303,7 @@ GameObject:
   - component: {fileID: 5034241774101195166}
   - component: {fileID: 1742619708574467924}
   - component: {fileID: 2524371468579000160}
+  - component: {fileID: 2398394202528101159}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -578,3 +579,15 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &2398394202528101159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7943098415773013364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd40ae1950cbb4c0eb4f37504e3de767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
