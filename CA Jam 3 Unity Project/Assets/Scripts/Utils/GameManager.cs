@@ -7,6 +7,10 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : IService
 {
+    private const int MAX_DAYS = 5;
+
+    private const int TOTAL_TASKS = 10;
+    
     private TaskListHolder tasks;
 
     private int day = 0;
@@ -16,6 +20,16 @@ public class GameManager : IService
         set { day = value; }
     }
 
+    /// <summary>
+    /// End of day grade for the player
+    /// 0.0-0.2: F
+    /// 0.3-0.5: D
+    /// 0.5-0.7: C
+    /// 0.7-0.8: B
+    /// 0.9-1.0: A
+    /// </summary>
+    public float grade;
+    
     /// <summary>
     /// True if the game is paused, false if it is not
     /// </summary>
@@ -44,6 +58,12 @@ public class GameManager : IService
     
     public void InitDay()
     {
+        if (day > MAX_DAYS)
+        {
+            grade = ServiceLocator.Instance.Get<TaskManager>().GetTasksComplete() / (float)TOTAL_TASKS;
+            SceneManager.LoadScene("Win Screen", LoadSceneMode.Additive);
+            return;
+        }
         ServiceLocator.Instance.Get<TaskManager>().ClearTasks();
         List<TaskSO> temp = tasks.lists[day].tasks;
         for (int i = 0; i < temp.Count; ++i)
