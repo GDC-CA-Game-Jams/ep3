@@ -71,7 +71,6 @@ public class GameManager : IService
             ServiceLocator.Instance.Get<TaskManager>().AssignTask(temp[i]);
         }
 
-        onDayStart?.Invoke(day);
         SceneManager.LoadScene("Morning_Meeting", LoadSceneMode.Additive);
     }
 

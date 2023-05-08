@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -270,7 +270,15 @@ PrefabInstance:
       value: PostIt Button
       objectReference: {fileID: 0}
     - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
@@ -278,7 +286,23 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 148480889}
     - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 148480889}
+    - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StartDay
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: UnloadSelf
       objectReference: {fileID: 0}
     - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
@@ -286,11 +310,23 @@ PrefabInstance:
       value: MorningMeeting, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: MorningMeeting, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
       value: OfficeLayout_Ian
       objectReference: {fileID: 0}
     - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6527256700594941207, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
