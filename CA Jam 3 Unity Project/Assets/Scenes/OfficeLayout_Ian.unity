@@ -974,7 +974,7 @@ MonoBehaviour:
     Path: event:/Music/mx_gameplay_lp
   Event: 
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -35752,6 +35752,10 @@ PrefabInstance:
     - target: {fileID: 1523918309792848762, guid: e1a7841ec50d54915b9d34ebb5c190a3, type: 3}
       propertyPath: moveForce
       value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 7234047394986122554, guid: e1a7841ec50d54915b9d34ebb5c190a3, type: 3}
+      propertyPath: StopEvent
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7943098415773013364, guid: e1a7841ec50d54915b9d34ebb5c190a3, type: 3}
       propertyPath: m_Name

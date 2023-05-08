@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5570471790404960310}
   - component: {fileID: 9041538196343494368}
   - component: {fileID: 7234047394986122554}
+  - component: {fileID: 1728364667555325759}
   m_Layer: 3
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -154,7 +155,38 @@ MonoBehaviour:
     Path: event:/BG/amb_office
   Event: 
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1728364667555325759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541125613128994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1555705049
+      Data2: 1250737466
+      Data3: 1759726007
+      Data4: 1581239130
+    Path: event:/Music/mx_gameplay_lp
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
