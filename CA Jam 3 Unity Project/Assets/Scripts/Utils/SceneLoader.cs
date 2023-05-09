@@ -25,4 +25,9 @@ public class SceneLoader : MonoBehaviour
     {
         Time.timeScale = 1;
     }
+    
+    public void UnloadScene(string sceneName)
+    {
+        SceneManager.UnloadSceneAsync(sceneName);
+    }
 }
