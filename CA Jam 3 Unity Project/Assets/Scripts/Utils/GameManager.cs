@@ -35,6 +35,8 @@ public class GameManager : IService
     /// </summary>
     private bool isPaused;
 
+    private bool isInGameplay = false;
+
     private GameObject player;
 
     private Vector3 startPos;
@@ -44,22 +46,31 @@ public class GameManager : IService
     public GameManager()
     {
         Debug.Log("GameManager Initiating!");
+        day = 0;
         tasks = Resources.Load<TaskListHolder>("Tasks/Days");
     }
 
     public void Init()
     {
+        isInGameplay = true;
+        day = 0;
         player = GameObject.FindWithTag("Player");
         startPos = player.transform.position;
-        Debug.Log("player: " + player, player);
-        Debug.Log("startPos: " + startPos);
+        Debug.Log("[GameManager] Initing GameManager!");
         InitDay();
     }
     
     public void InitDay()
     {
+        if (!isInGameplay)
+        {
+            return;
+        }
+        Debug.Log("[GameManager] Initing day!");
         if (day > MAX_DAYS)
         {
+            isInGameplay = false;
+            day = 0;
             grade = ServiceLocator.Instance.Get<TaskManager>().GetTasksComplete() / (float)TOTAL_TASKS;
 
             SceneManager.LoadScene("Win Screen", LoadSceneMode.Additive);
@@ -77,6 +88,7 @@ public class GameManager : IService
 
     public void EndDay()
     {
+        Debug.Log("[GameManager] Ending Day!");
         ServiceLocator.Instance.Get<TaskManager>().ClearTasks();
         player.transform.position = startPos;
         ++day;
