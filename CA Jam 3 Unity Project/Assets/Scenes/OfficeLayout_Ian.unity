@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1541327210}
-  m_IndirectSpecularColor: {r: 0.18028495, g: 0.22571586, b: 0.30692342, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657856, g: 0.49641496, b: 0.5748179, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -12354,6 +12354,14 @@ PrefabInstance:
     - target: {fileID: 5076123350103115178, guid: 9f7ea0c8c31f106499d62fc75051a04c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5302454469741431807, guid: 9f7ea0c8c31f106499d62fc75051a04c, type: 3}
+      propertyPath: correctDayAction.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5302454469741431807, guid: 9f7ea0c8c31f106499d62fc75051a04c, type: 3}
+      propertyPath: defaultDayAction.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f7ea0c8c31f106499d62fc75051a04c, type: 3}
