@@ -16,7 +16,7 @@ MonoBehaviour:
   isSticky: 1
   noItemRequired: 1
   noStickyAudio: 0
-  taskName: Do someone else's job
+  taskName: Go to someone else's desk and do their job
   numRequired: 1
-  numCompleted: 0
+  numCompleted: 1
   taskItem: {fileID: 11400000, guid: cc10718824f0cfd40b1d10ffbc0e93a8, type: 2}

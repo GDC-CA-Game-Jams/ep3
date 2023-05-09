@@ -12,7 +12,9 @@ public class UI_Clock : MonoBehaviour
     private float minuteHandDegreesPerSecond;
     private float hourHandDegreesPerSecond;
 
-    private float initialRealtimeSecondsElapsed = 60f * 9f;
+    private float realtimeSecondsPerInGameHour = 30f;
+
+    private float initialRealtimeSecondsElapsed;
     private float realtimeSecondsElapsed;
 
     private int numHoursElapsed;
@@ -26,7 +28,9 @@ public class UI_Clock : MonoBehaviour
 
     private void Awake()
     {
-        minuteHandDegreesPerSecond = 360f / 60f;
+        initialRealtimeSecondsElapsed = realtimeSecondsPerInGameHour * 9f;
+
+        minuteHandDegreesPerSecond = 360f / realtimeSecondsPerInGameHour;
         hourHandDegreesPerSecond = minuteHandDegreesPerSecond / 12f;
 
         minuteHandTransform = transform.Find("ClockMinuteHand");
@@ -109,6 +113,6 @@ public class UI_Clock : MonoBehaviour
         numHoursElapsed = 0;
 
         // Call the onHourElapsed() function once for each in-game hour
-        InvokeRepeating("onHourElapsed", 60f, 60f);
+        InvokeRepeating("onHourElapsed", realtimeSecondsPerInGameHour, realtimeSecondsPerInGameHour);
     }
 }

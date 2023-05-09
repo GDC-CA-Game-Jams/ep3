@@ -64,7 +64,6 @@ public class TaskUI : MonoBehaviour
         {
             var img = entries[task].GetComponentInChildren<Image>();
             img.sprite = CheckBoxTicked;
-            entries.Remove(task);
         }
 
         public void RemoveSticky()

@@ -90,6 +90,7 @@ public class GameManager : IService
     {
         Debug.Log("[GameManager] Ending Day!");
         ServiceLocator.Instance.Get<TaskManager>().ClearTasks();
+        player.GetComponent<Inventory>().RemoveAllItems();
         player.transform.position = startPos;
         ++day;
         InitDay();
