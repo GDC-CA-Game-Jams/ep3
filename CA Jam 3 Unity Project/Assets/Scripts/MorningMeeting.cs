@@ -20,6 +20,8 @@ public class MorningMeeting : MonoBehaviour
 
     [SerializeField] public TextAsset asset;
 
+    GameManager gameManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +36,8 @@ public class MorningMeeting : MonoBehaviour
         string line = lines[lineIndex];
         text.text = line;
         text.ForceMeshUpdate(true, true);
+
+        gameManager = ServiceLocator.Instance.Get<GameManager>();
     }
 
     private void OnEnable()
@@ -44,5 +48,10 @@ public class MorningMeeting : MonoBehaviour
     public void UnloadSelf()
     {
         SceneManager.UnloadSceneAsync("Morning_Meeting");
+    }
+
+    public void StartDay()
+    {
+        gameManager.onDayStart?.Invoke(gameManager.Day);
     }
 }

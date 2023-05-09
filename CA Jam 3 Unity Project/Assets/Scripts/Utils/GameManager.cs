@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : IService
 {
-    private const int MAX_DAYS = 5;
+    private const int MAX_DAYS = 2;
 
     private const int TOTAL_TASKS = 10;
     
@@ -61,6 +61,7 @@ public class GameManager : IService
         if (day > MAX_DAYS)
         {
             grade = ServiceLocator.Instance.Get<TaskManager>().GetTasksComplete() / (float)TOTAL_TASKS;
+
             SceneManager.LoadScene("Win Screen", LoadSceneMode.Additive);
             return;
         }
@@ -71,7 +72,6 @@ public class GameManager : IService
             ServiceLocator.Instance.Get<TaskManager>().AssignTask(temp[i]);
         }
 
-        onDayStart?.Invoke(day);
         SceneManager.LoadScene("Morning_Meeting", LoadSceneMode.Additive);
     }
 

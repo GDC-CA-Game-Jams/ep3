@@ -24,6 +24,8 @@ public class DayStartListener : MonoBehaviour
 
     private void OnDayStart(int day)
     {
+        Debug.Log("DayStartListener calling OnDayStart. We're on day " + day + " (0-indexed)");
+
         if (day == dayToFire)
         {
             correctDayAction.Invoke();

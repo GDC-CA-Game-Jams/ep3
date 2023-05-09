@@ -270,7 +270,15 @@ PrefabInstance:
       value: PostIt Button
       objectReference: {fileID: 0}
     - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
@@ -278,7 +286,23 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 148480889}
     - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 148480889}
+    - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StartDay
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: UnloadSelf
       objectReference: {fileID: 0}
     - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
@@ -286,11 +310,23 @@ PrefabInstance:
       value: MorningMeeting, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: MorningMeeting, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
       value: OfficeLayout_Ian
       objectReference: {fileID: 0}
     - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6527256700594941207, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
@@ -688,7 +724,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: -29.33
+  m_lineSpacing: -10
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -785,9 +821,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Morning
-
-    Meeting'
+  m_text: Morning Meeting
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 47bcf4956d9fe477cb99d0b599121adc, type: 2}
   m_sharedMaterial: {fileID: -4004845777908980696, guid: 47bcf4956d9fe477cb99d0b599121adc, type: 2}

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using Services;
 using UnityEngine;
 
@@ -21,10 +22,10 @@ public class UI_Clock : MonoBehaviour
     [SerializeField] private FMODUnity.StudioEventEmitter hourTickSound;
     [SerializeField] private FMODUnity.StudioEventEmitter endOfDaySound;
 
+    GameManager gameManager;
+
     private void Awake()
     {
-        realtimeSecondsElapsed = initialRealtimeSecondsElapsed;
-
         minuteHandDegreesPerSecond = 360f / 60f;
         hourHandDegreesPerSecond = minuteHandDegreesPerSecond / 12f;
 
@@ -34,11 +35,10 @@ public class UI_Clock : MonoBehaviour
 
     private void Start()
     {
-        // Reset the FMOD ambience parameter to 0
-        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("param_ambience", 0f);
+        gameManager = ServiceLocator.Instance.Get<GameManager>();
+        gameManager.onDayStart += ResetClock;
 
-        // Call the onHourElapsed() function once for each in-game hour
-        InvokeRepeating("onHourElapsed", 60f, 60f);
+        ResetClock(0);
     }
 
     private void Update()
@@ -72,7 +72,7 @@ public class UI_Clock : MonoBehaviour
             endOfDaySound.Play();
 
             // Other end-of-day logic goes here
-            ServiceLocator.Instance.Get<GameManager>().EndDay();
+            gameManager.EndDay();
 
             CancelInvoke();
         }
@@ -80,5 +80,35 @@ public class UI_Clock : MonoBehaviour
         {
             hourTickSound.Play();
         }
+    }
+
+    private void OnEnable()
+    {
+        //gameManager.onDayStart += ResetClock;
+    }
+
+    private void OnDisable()
+    {
+        //gameManager.onDayStart -= ResetClock;
+    }
+
+    // The Game Manager onDayStart action passes an int, but it is unused here.
+    private void ResetClock(int dayIndex)
+    {
+        Debug.Log("Resetting clock.");
+
+        CancelInvoke("onHourElapsed");
+
+        isClockPaused = false;
+
+        // Reset time to 9am
+        realtimeSecondsElapsed = initialRealtimeSecondsElapsed;
+
+        // Reset the FMOD ambience parameter to 0
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("param_ambience", 0f);
+        numHoursElapsed = 0;
+
+        // Call the onHourElapsed() function once for each in-game hour
+        InvokeRepeating("onHourElapsed", 60f, 60f);
     }
 }
