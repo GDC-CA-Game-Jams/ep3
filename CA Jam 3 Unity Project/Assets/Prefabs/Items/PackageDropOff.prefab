@@ -346,6 +346,7 @@ GameObject:
   - component: {fileID: 7794649677323054980}
   - component: {fileID: 7794649677323054986}
   - component: {fileID: 7625273608138863334}
+  - component: {fileID: 3046732462617777457}
   m_Layer: 0
   m_Name: PackageDropOff
   m_TagString: Untagged
@@ -414,6 +415,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   task: {fileID: 11400000, guid: 3383ba0a2fda68e4a8affa5b6a6f5f97, type: 2}
   timesRemainingUpdateTask: 1
+  canCompleteTaskLimitedNumTimes: 1
   greenArrow: {fileID: 721199575793557008}
 --- !u!114 &7625273608138863334
 MonoBehaviour:
@@ -429,6 +431,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemBase: {fileID: 6984310359862002547}
   greenArrow: {fileID: 721199575793557008}
+  upDisplacement: 4
+--- !u!114 &3046732462617777457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6984310359862002547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10a7db048c5700b4294cbf0afec0e53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctDayAction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6984310359862002547}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 1
+  defaultDayAction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6984310359862002547}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+  dayToFire: 0
 --- !u!1 &7755028069252709373
 GameObject:
   m_ObjectHideFlags: 0
