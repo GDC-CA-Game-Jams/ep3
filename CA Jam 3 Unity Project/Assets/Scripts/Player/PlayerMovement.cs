@@ -124,7 +124,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnDestroy()
     {
-        ServiceLocator.Instance.Get<GameManager>().EndDay();
+        ServiceLocator.Instance.Get<GameManager>().Reset();
         ServiceLocator.Instance.Get<TaskManager>().ClearTasks();
     }
 }

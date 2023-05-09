@@ -96,6 +96,14 @@ public class GameManager : IService
         InitDay();
     }
 
+    public void Reset()
+    {
+        ServiceLocator.Instance.Get<TaskManager>().ClearTasks();
+        player.GetComponent<Inventory>().RemoveAllItems();
+        day = 0;
+        isInGameplay = false;
+    }
+    
     public void TogglePause(string pauseScene)
     {
 

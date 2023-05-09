@@ -115,4 +115,9 @@ public class UI_Clock : MonoBehaviour
         // Call the onHourElapsed() function once for each in-game hour
         InvokeRepeating("onHourElapsed", realtimeSecondsPerInGameHour, realtimeSecondsPerInGameHour);
     }
+
+    private void OnDestroy()
+    {
+        gameManager.onDayStart -= ResetClock;
+    }
 }
