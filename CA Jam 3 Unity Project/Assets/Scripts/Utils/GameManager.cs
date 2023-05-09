@@ -78,6 +78,7 @@ public class GameManager : IService
     public void EndDay()
     {
         ServiceLocator.Instance.Get<TaskManager>().ClearTasks();
+        player.GetComponent<Inventory>().RemoveAllItems();
         player.transform.position = startPos;
         ++day;
         InitDay();

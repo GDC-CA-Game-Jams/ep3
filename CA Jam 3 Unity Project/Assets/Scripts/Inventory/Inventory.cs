@@ -44,6 +44,12 @@ public class Inventory : MonoBehaviour
         return false;
     }
 
+    public void RemoveAllItems()
+    {
+        Items.Clear();
+        Updated.Invoke();
+    }
+
     public bool CheckForItem(ItemData itemData) {
         return Items.ContainsKey(itemData);
     }
