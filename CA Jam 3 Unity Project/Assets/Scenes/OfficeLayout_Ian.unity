@@ -4349,56 +4349,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5178147043528943637, guid: a5fff471b768c7e49bc45bffcdef5c77, type: 3}
+      propertyPath: dayToFire
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5fff471b768c7e49bc45bffcdef5c77, type: 3}
---- !u!1 &206790676 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4016425677408761750, guid: a5fff471b768c7e49bc45bffcdef5c77, type: 3}
-  m_PrefabInstance: {fileID: 206790675}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &206790677
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 206790676}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10a7db048c5700b4294cbf0afec0e53d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  correctDayAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 206790676}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  defaultDayAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 206790676}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  dayToFire: 2
 --- !u!1 &209577289 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7405980741737093027, guid: 7cd7e0cadcebb56408a17c6e68d5c710, type: 3}
@@ -9797,56 +9753,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5178147043528943637, guid: a5fff471b768c7e49bc45bffcdef5c77, type: 3}
+      propertyPath: dayToFire
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5fff471b768c7e49bc45bffcdef5c77, type: 3}
---- !u!1 &480917896 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4016425677408761750, guid: a5fff471b768c7e49bc45bffcdef5c77, type: 3}
-  m_PrefabInstance: {fileID: 480917895}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &480917897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 480917896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10a7db048c5700b4294cbf0afec0e53d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  correctDayAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 480917896}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  defaultDayAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 480917896}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  dayToFire: 2
 --- !u!1001 &482356236
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10944,56 +10856,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5178147043528943637, guid: a5fff471b768c7e49bc45bffcdef5c77, type: 3}
+      propertyPath: dayToFire
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5fff471b768c7e49bc45bffcdef5c77, type: 3}
---- !u!1 &537572278 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4016425677408761750, guid: a5fff471b768c7e49bc45bffcdef5c77, type: 3}
-  m_PrefabInstance: {fileID: 537572277}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &537572279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 537572278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10a7db048c5700b4294cbf0afec0e53d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  correctDayAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 537572278}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  defaultDayAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 537572278}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  dayToFire: 2
 --- !u!1 &537841580 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2567372388152003277, guid: e94b3228913d88a428e70ff280ea11fc, type: 3}
@@ -32360,56 +32228,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5178147043528943637, guid: a5fff471b768c7e49bc45bffcdef5c77, type: 3}
+      propertyPath: dayToFire
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5fff471b768c7e49bc45bffcdef5c77, type: 3}
---- !u!1 &1518122059 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4016425677408761750, guid: a5fff471b768c7e49bc45bffcdef5c77, type: 3}
-  m_PrefabInstance: {fileID: 1518122058}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1518122060
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1518122059}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10a7db048c5700b4294cbf0afec0e53d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  correctDayAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1518122059}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  defaultDayAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1518122059}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  dayToFire: 2
 --- !u!1001 &1524516590
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43500,56 +43324,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5178147043528943637, guid: a5fff471b768c7e49bc45bffcdef5c77, type: 3}
+      propertyPath: dayToFire
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5fff471b768c7e49bc45bffcdef5c77, type: 3}
---- !u!1 &2033316764 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4016425677408761750, guid: a5fff471b768c7e49bc45bffcdef5c77, type: 3}
-  m_PrefabInstance: {fileID: 2033316763}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2033316765
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2033316764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10a7db048c5700b4294cbf0afec0e53d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  correctDayAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2033316764}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  defaultDayAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2033316764}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  dayToFire: 2
 --- !u!1001 &2034718057
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43735,56 +43515,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5178147043528943637, guid: a5fff471b768c7e49bc45bffcdef5c77, type: 3}
+      propertyPath: dayToFire
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5fff471b768c7e49bc45bffcdef5c77, type: 3}
---- !u!1 &2046513837 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4016425677408761750, guid: a5fff471b768c7e49bc45bffcdef5c77, type: 3}
-  m_PrefabInstance: {fileID: 2046513836}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2046513838
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2046513837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10a7db048c5700b4294cbf0afec0e53d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  correctDayAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2046513837}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  defaultDayAction:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2046513837}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  dayToFire: 2
 --- !u!1001 &2051163868
 PrefabInstance:
   m_ObjectHideFlags: 0
