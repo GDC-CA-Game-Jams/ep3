@@ -30,7 +30,6 @@ public class TaskReciever : MonoBehaviour
 
         if (task.taskItem.soundEffect.Length > 0)
         {
-            Debug.Log("task.taskItem.soundEffect");
             soundEffectFMODEvent = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/" + task.taskItem.soundEffect);
         }
     }
