@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -459,6 +459,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 1787013934}
   videoFileName: MainMenuBG.mp4
+--- !u!1 &337322528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 337322530}
+  - component: {fileID: 337322529}
+  m_Layer: 0
+  m_Name: Load Main Game Scene Script
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &337322529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337322528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a58a2c5973365314a9ff727b3ffba302, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startButton: {fileID: 1989639483}
+  sceneToLoad: OfficeLayout_Ian
+--- !u!4 &337322530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337322528}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -782.9748, y: -227.75488, z: 3.6045308}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1989639482}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &653698307
 GameObject:
   m_ObjectHideFlags: 0
@@ -1241,23 +1287,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 264837238}
+      objectReference: {fileID: 337322529}
     - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadScene
+      value: LoadMainScene
       objectReference: {fileID: 0}
     - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SceneLoader, Assembly-CSharp
+      value: LoadMainGameScene, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
@@ -1370,6 +1416,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6527256700594941207, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
   m_PrefabInstance: {fileID: 1989639481}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1989639483 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6527256700594941206, guid: 4fba20bcd9778456a91a2dd4eed7b213, type: 3}
+  m_PrefabInstance: {fileID: 1989639481}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2104282412
 GameObject:
   m_ObjectHideFlags: 0
