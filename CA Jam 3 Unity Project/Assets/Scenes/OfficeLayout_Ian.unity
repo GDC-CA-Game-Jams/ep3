@@ -39947,6 +39947,10 @@ PrefabInstance:
       propertyPath: moveForce
       value: 500
       objectReference: {fileID: 0}
+    - target: {fileID: 2398394202528101159, guid: e1a7841ec50d54915b9d34ebb5c190a3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7234047394986122554, guid: e1a7841ec50d54915b9d34ebb5c190a3, type: 3}
       propertyPath: StopEvent
       value: 2
